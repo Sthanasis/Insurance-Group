@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mblue: #04596a;
+  --lblue: #01b1ca;
+  --yellow: #f5cb4f;
+  --pink: #db4187;
+  --mustard: #d7d36c;
+  --lgreen: #00b2cc;
+}
+
+*[data-icon]:before {
+  font-size: 25px;
+  margin: 0 5px 0 10px;
+}
+
+[data-icon='email']:before {
+  content: '\00c0';
+}
+
+[data-icon='facebook']:before {
+  content: '\00c1';
+}
+
+[data-icon='linkedIn']:before {
+  content: '\00c2';
+}
+
+[data-icon='phone']:before {
+  content: '\00c3';
+}
+
+[data-icon='location']:before {
+  content: '\00c4';
+}
+
+[data-icon='mobile']:before {
+  content: '\00c5';
+}
+
+[data-icon='logo']:before {
+  content: '\00c6';
+}
