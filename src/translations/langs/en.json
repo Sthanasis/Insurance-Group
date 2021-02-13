@@ -1,5 +1,9 @@
 {
   "navigation": {
-    "language": "English"
+    "language": "English",
+    "navItem1": "Our Company",
+    "navItem2": "Products and Services",
+    "navItem3": "Collaborating Companies",
+    "navItem4": "Contact"
   }
 }

@@ -1,15 +1,22 @@
 <template>
   <div id="app">
     <Home />
+    <Company />
+    <Services />
   </div>
 </template>
 
 <script>
 import Home from './components/containers/Home';
+import Company from './components/containers/Company';
+import Services from './components/containers/Services';
+
 export default {
   name: 'App',
   components: {
     Home,
+    Company,
+    Services,
   },
 };
 </script>

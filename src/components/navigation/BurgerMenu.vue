@@ -13,9 +13,8 @@ export default {};
 <style scoped>
 .burger {
   height: 20px;
-
   width: 30px;
-
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,7 +23,7 @@ export default {};
   height: 4px;
   border-radius: 2px;
   width: 100%;
-  background: black;
+  background: var(--mblue);
 }
 
 @media (min-width: 500px) {

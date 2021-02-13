@@ -15,6 +15,7 @@ body {
 *[data-icon]:before {
   font-size: 25px;
   margin: 0 5px 0 10px;
+  color: var(--lblue);
 }
 
 [data-icon='email']:before {
@@ -43,4 +44,26 @@ body {
 
 [data-icon='logo']:before {
   content: '\00c6';
+}
+
+[data-icon='down']:before {
+  content: '\00c7';
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.header span {
+  color: var(--lblue);
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pageContainer {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
 }

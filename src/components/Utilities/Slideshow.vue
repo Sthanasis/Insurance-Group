@@ -1,11 +1,12 @@
 <template>
   <div class="background">
+    <img src="../../assets/HOME.svg" alt="" />
     <div class="infoIcons">
       <InfoItem v-for="i in items" :key="i" :item="i" />
     </div>
     <div class="motivate">
-      Together we create. <br />
-      For what you love the most.
+      Δημιουργούμε μαζί. <br />
+      Για ότι αγαπάτε περισσότερο.
     </div>
   </div>
 </template>
@@ -34,30 +35,31 @@ export default {
 }
 
 .background {
-  background-image: url(../../assets/HOME.svg);
+  /* background-image: url(../../assets/HOME.svg); */
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
   margin-top: 74px;
   display: flex;
   flex-flow: column;
 }
 
 .motivate {
-  font-size: 1.5rem;
+  font-size: 4vw;
   color: white;
   font-weight: bold;
   text-align: left;
-  margin-top: 20%;
-  margin-left: 15%;
+  margin-top: 15%;
+  margin-left: 10%;
+  position: absolute;
 }
 
 .infoIcons {
   position: absolute;
   width: 100%;
-  background-color: rgba(1, 177, 202, 0.4);
+  background-color: rgba(1, 177, 202, 0.2);
   z-index: 2;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 5px 0px;
 }
 </style>

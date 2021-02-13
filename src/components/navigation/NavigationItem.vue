@@ -15,23 +15,23 @@ import Button from '../UI/Button';
 export default {
   props: {
     caption: {
-      type: String
+      type: String,
     },
     isSelected: {
-      type: Boolean
+      type: Boolean,
     },
     id: {
-      type: Number
-    }
+      type: Number,
+    },
   },
   components: {
-    Button
+    Button,
   },
   methods: {
     navigate(event) {
       this.$emit('navigate', event);
-    }
-  }
+    },
+  },
 };
 </script>
 

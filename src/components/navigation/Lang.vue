@@ -47,6 +47,9 @@ export default {
       localStorage.setItem('lang', lang);
     },
   },
+  created() {
+    this.$i18n.locale = this.language;
+  },
 };
 </script>
 
@@ -55,7 +58,7 @@ export default {
   position: absolute;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  top: 50px;
+  top: 55px;
   cursor: pointer;
 }
 
@@ -77,5 +80,17 @@ export default {
 .LanguageContainer img {
   height: 25px;
   width: 40px;
+}
+
+[data-icon='down']:before {
+  font-size: 15px;
+  margin: 0;
+  color: var(--lblue);
+}
+
+@media (max-width: 500px) {
+  .LanguageContainer {
+    display: none;
+  }
 }
 </style>

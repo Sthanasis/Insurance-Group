@@ -3,6 +3,7 @@
     <Logo />
     <NavigationItems :navItems="navItems" />
     <Lang />
+    <BurgerMenu />
   </nav>
 </template>
 
@@ -10,28 +11,30 @@
 import NavigationItems from './NavigationItems';
 import Logo from '../UI/Logo';
 import Lang from './Lang';
+import BurgerMenu from './BurgerMenu';
+
 export default {
   data() {
     return {
       navItems: [
         {
           id: 1,
-          caption: 'Our Company',
-          isSelected: true,
+          caption: this.$t('navigation.navItem1'),
+          isSelected: false,
         },
         {
           id: 2,
-          caption: 'Products and Services',
+          caption: this.$t('navigation.navItem2'),
           isSelected: false,
         },
         {
           id: 3,
-          caption: 'Partners',
+          caption: this.$t('navigation.navItem3'),
           isSelected: false,
         },
         {
           id: 4,
-          caption: 'Contact',
+          caption: this.$t('navigation.navItem4'),
           isSelected: false,
         },
       ],
@@ -41,6 +44,7 @@ export default {
     NavigationItems,
     Logo,
     Lang,
+    BurgerMenu,
   },
 };
 </script>
@@ -55,10 +59,18 @@ nav {
   display: flex;
   justify-content: space-around;
   z-index: 3;
+  height: 74px;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
+  padding: 0;
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    display: none;
+  }
 }
 </style>

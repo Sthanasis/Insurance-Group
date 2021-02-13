@@ -21,10 +21,12 @@ export default {};
 
 .brandContainer img {
   height: 60px;
+  margin: auto;
 }
 
 .brandContainer div {
   display: flex;
+  font-size: 20px;
   flex-flow: column;
   text-align: left;
   font-weight: bold;

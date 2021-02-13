@@ -48,8 +48,11 @@ export default {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-}
-.selected {
   color: var(--lblue);
+  font-weight: bold;
+}
+
+.selected {
+  color: var(--mblue);
 }
 </style>

@@ -18,25 +18,25 @@ import NavigationItem from './NavigationItem';
 export default {
   data() {
     return {
-      navigationItems: [...this.navItems]
+      navigationItems: [...this.navItems],
     };
   },
   props: {
     navItems: {
-      type: Array
-    }
+      type: Array,
+    },
   },
   components: {
     NavigationItem,
-    BurgerMenu
+    BurgerMenu,
   },
   methods: {
     navigateToItem() {
       this.navigationItems = this.navigationItems.map(item => {
         return { ...item, isSelected: item.id == event.target.id };
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
