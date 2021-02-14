@@ -5,8 +5,8 @@
       <InfoItem v-for="i in items" :key="i" :item="i" />
     </div>
     <div class="motivate">
-      Δημιουργούμε μαζί. <br />
-      Για ότι αγαπάτε περισσότερο.
+      {{ $t('motivate.row1') }} <br />
+      {{ $t('motivate.row2') }}
     </div>
   </div>
 </template>

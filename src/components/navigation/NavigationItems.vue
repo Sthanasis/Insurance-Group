@@ -2,11 +2,12 @@
   <ul>
     <BurgerMenu />
     <NavigationItem
-      v-for="navItem in navigationItems"
+      v-for="navItem in navItems"
       :key="navItem.id"
       :caption="navItem.caption"
       :isSelected="navItem.isSelected"
       :id="navItem.id"
+      :selectedId="selectedId"
       @navigate="navigateToItem"
     />
   </ul>
@@ -18,7 +19,7 @@ import NavigationItem from './NavigationItem';
 export default {
   data() {
     return {
-      navigationItems: [...this.navItems],
+      selectedId: null,
     };
   },
   props: {
@@ -31,10 +32,8 @@ export default {
     BurgerMenu,
   },
   methods: {
-    navigateToItem() {
-      this.navigationItems = this.navigationItems.map(item => {
-        return { ...item, isSelected: item.id == event.target.id };
-      });
+    navigateToItem(event) {
+      this.selectedId = parseInt(event.target.id);
     },
   },
 };

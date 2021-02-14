@@ -15,8 +15,11 @@ import BurgerMenu from './BurgerMenu';
 
 export default {
   data() {
-    return {
-      navItems: [
+    return {};
+  },
+  computed: {
+    navItems() {
+      return [
         {
           id: 1,
           caption: this.$t('navigation.navItem1'),
@@ -37,8 +40,8 @@ export default {
           caption: this.$t('navigation.navItem4'),
           isSelected: false,
         },
-      ],
-    };
+      ];
+    },
   },
   components: {
     NavigationItems,

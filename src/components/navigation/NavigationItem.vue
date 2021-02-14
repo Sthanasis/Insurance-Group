@@ -3,7 +3,7 @@
     <Button
       :id="id"
       :caption="caption"
-      :selected="isSelected"
+      :selected="id === selectedId"
       type="navItem"
       @clickevent="navigate"
     />
@@ -16,6 +16,9 @@ export default {
   props: {
     caption: {
       type: String,
+    },
+    selectedId: {
+      type: Number,
     },
     isSelected: {
       type: Boolean,

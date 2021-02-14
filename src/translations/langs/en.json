@@ -1,9 +1,60 @@
 {
   "navigation": {
     "language": "English",
-    "navItem1": "Our Company",
+    "navItem1": "Our company",
     "navItem2": "Products and Services",
     "navItem3": "Collaborating Companies",
     "navItem4": "Contact"
+  },
+  "language": {
+    "english": "English",
+    "greek": "Greek",
+    "italian": "Italian"
+  },
+  "motivate": {
+    "row1": "We create together.",
+    "row2": "For what you love the most."
+  },
+  "company": {
+    "about": "Efthymiou Athanasios - Insurance Group was founded in 1991 with the purpose of making your life easier by providing insurance services.",
+    "header": "What makes us special and what is your gain.",
+    "item1": "Safety, liability and trust since 1991.",
+    "item2": {
+      "row1": "We are collaborating with companies that provide insurance services ",
+      "row2": "and the majority of them enlist on the 'Fortune 500' with",
+      "row3": "over 200 million clients worldwide."
+    },
+    "item3": {
+      "row1": "Our clients trust us because we support them in time of need.",
+      "row2": "We attend their finnancial needs, we protect their fortune and their",
+      "row3": "company, and we help them plan for the future."
+    },
+    "item4": "We provide innovative and concluded services, based on your needs."
+  },
+  "services": {
+    "service1": {
+      "description": "Health Insurance",
+      "content": "Health Insurance"
+    },
+    "service2": {
+      "description": "Financial Insurance",
+      "content": "Financial Insurance"
+    },
+    "service3": {
+      "description": "Income Insurance",
+      "content": "Income Insurance"
+    },
+    "service4": {
+      "description": "Health Insurance",
+      "content": "Health Insurance"
+    },
+    "service5": {
+      "description": "Financial Insurance",
+      "content": "Financial Insurance"
+    },
+    "service6": {
+      "description": "Income Insurance",
+      "content": "Income Insurance"
+    }
   }
 }

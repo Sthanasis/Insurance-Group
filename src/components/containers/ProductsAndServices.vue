@@ -2,16 +2,18 @@
   <div class="Services pageContainer">
     <div class="header">
       <span>
-        Προϊόντα και Υπηρεσίες
+        {{ $t('navigation.navItem2') }}
       </span>
     </div>
+    <Services />
   </div>
 </template>
 
 <script>
+import Services from '../Utilities/Services';
 export default {
-  data() {
-    return {};
+  components: {
+    Services,
   },
 };
 </script>
