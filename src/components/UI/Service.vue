@@ -34,7 +34,7 @@ export default {
 <style>
 .service {
   border-bottom: 1px solid lightgray;
-  width: 30%;
+  width: 50%;
   font-size: 18px;
   padding: 20px 0;
 }

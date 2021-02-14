@@ -1,5 +1,5 @@
 <template>
-  <div class="Services pageContainer">
+  <div id="ProductsAndServices" class="Services pageContainer">
     <div class="header">
       <span>
         {{ $t('navigation.navItem2') }}

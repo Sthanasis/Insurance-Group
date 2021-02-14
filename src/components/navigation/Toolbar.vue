@@ -1,6 +1,11 @@
 <template>
   <nav>
-    <Logo />
+    <router-link
+      :to="{ name: 'Home' }"
+      style="text-decoration:none; align-self:center"
+    >
+      <Logo />
+    </router-link>
     <NavigationItems :navItems="navItems" />
     <Lang />
     <BurgerMenu />

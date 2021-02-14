@@ -1,5 +1,5 @@
 <template>
-  <div class="Company pageContainer">
+  <div id="company" class="Company pageContainer">
     <div class="colors">
       <div style="background-color: var(--lblue)"></div>
       <div style="background-color: var(--yellow)"></div>
@@ -12,7 +12,7 @@
         {{ $t('navigation.navItem1') }}
       </span>
     </div>
-    <h3 style="margin: 40px 0">
+    <h3 class="subheader">
       {{ $t('company.about') }}
     </h3>
     <div>
@@ -65,9 +65,5 @@ export default {};
 .Company ul li {
   margin: 10px 0;
   font-weight: bold;
-}
-
-.Company ul li:last-of-type {
-  margin-bottom: 40px;
 }
 </style>

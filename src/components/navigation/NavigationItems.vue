@@ -1,25 +1,39 @@
 <template>
   <ul>
     <BurgerMenu />
-    <NavigationItem
-      v-for="navItem in navItems"
-      :key="navItem.id"
-      :caption="navItem.caption"
-      :isSelected="navItem.isSelected"
-      :id="navItem.id"
-      :selectedId="selectedId"
-      @navigate="navigateToItem"
-    />
+    <router-link class="navigationItem" :to="link1" active-class="active" exact
+      ><a>
+        {{ $t('navigation.navItem1') }}
+      </a></router-link
+    >
+    <router-link class="navigationItem" :to="link2" active-class="active" exact
+      ><a>
+        {{ $t('navigation.navItem2') }}
+      </a></router-link
+    >
+    <router-link class="navigationItem" :to="link3" active-class="active" exact
+      ><a>
+        {{ $t('navigation.navItem3') }}
+      </a></router-link
+    >
+    <router-link class="navigationItem" :to="link4" active-class="active" exact
+      ><a>
+        {{ $t('navigation.navItem4') }}
+      </a></router-link
+    >
   </ul>
 </template>
 
 <script>
 import BurgerMenu from '../navigation/BurgerMenu.vue';
-import NavigationItem from './NavigationItem';
 export default {
   data() {
     return {
       selectedId: null,
+      link1: { name: 'Company', hash: '#company' },
+      link2: { name: 'ProductsAndServices', hash: '#ProductsAndServices' },
+      link3: { name: 'Collaborating', hash: '#collaboratingCompanies' },
+      link4: { name: 'Contact', hash: '#contact' },
     };
   },
   props: {
@@ -28,7 +42,6 @@ export default {
     },
   },
   components: {
-    NavigationItem,
     BurgerMenu,
   },
   methods: {
@@ -39,4 +52,24 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.navigationItem {
+  border-right: 1px solid var(--lblue);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--lblue) !important;
+  font-weight: bold;
+}
+
+.active {
+  color: var(--mblue) !important;
+}
+
+.navigationItem:visited {
+  color: initial;
+}
+
+.navigationItem:last-of-type {
+  border: none;
+}
+</style>

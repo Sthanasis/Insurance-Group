@@ -38,13 +38,4 @@ export default {
 };
 </script>
 
-<style>
-.navigationItem {
-  border-right: 1px solid var(--lblue);
-  padding: 10px;
-}
-
-.navigationItem:last-of-type {
-  border: none;
-}
-</style>
+<style></style>

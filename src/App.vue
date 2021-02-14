@@ -3,6 +3,8 @@
     <Home />
     <Company />
     <ProductsAndServices />
+    <Collaborating />
+    <Contact />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import Home from './components/containers/Home';
 import Company from './components/containers/Company';
 import ProductsAndServices from './components/containers/ProductsAndServices';
+import Collaborating from './components/containers/Collaborating';
+import Contact from './components/containers/Contact';
 
 export default {
   name: 'App',
@@ -17,6 +21,8 @@ export default {
     Home,
     Company,
     ProductsAndServices,
+    Collaborating,
+    Contact,
   },
 };
 </script>
@@ -32,5 +38,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  margin: 0;
+  box-sizing: border-box;
 }
 </style>

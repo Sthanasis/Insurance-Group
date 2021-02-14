@@ -56,5 +56,15 @@
       "description": "Income Insurance",
       "content": "Income Insurance"
     }
+  },
+  "contact": {
+    "contactUs": "Do not hesitate to contact us with any question you may have.",
+    "sendMessage": "Send us a message."
+  },
+  "input": {
+    "name": "Name"
+  },
+  "button": {
+    "submit": "Send"
   }
 }
