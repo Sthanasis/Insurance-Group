@@ -13,12 +13,9 @@
 
 <script>
 import InfoItem from '../UI/Infoitem';
+import items from '../../mixins/contact';
 export default {
-  data() {
-    return {
-      items: ['phone', 'mobile', 'location', 'email', 'facebook'],
-    };
-  },
+  mixins: [items],
   components: {
     InfoItem,
   },

@@ -3,6 +3,8 @@
     <Home />
     <Company />
     <ProductsAndServices />
+    <Collaborating />
+    <Contact />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import Home from './components/containers/Home';
 import Company from './components/containers/Company';
 import ProductsAndServices from './components/containers/ProductsAndServices';
+import Collaborating from './components/containers/Collaborating';
+import Contact from './components/containers/Contact';
 
 export default {
   name: 'App',
@@ -17,6 +21,8 @@ export default {
     Home,
     Company,
     ProductsAndServices,
+    Contact,
+    Collaborating,
   },
 };
 </script>

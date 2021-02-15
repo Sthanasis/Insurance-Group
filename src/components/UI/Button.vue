@@ -30,6 +30,9 @@ export default {
       if (this.type === 'navItem') {
         classname = 'navItem';
       }
+      if (this.type === 'submit') {
+        classname = 'submit';
+      }
       return 'btn ' + classname;
     },
   },
@@ -42,6 +45,15 @@ export default {
 </script>
 
 <style scoped>
+.btn {
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .navItem {
   background-color: transparent;
   outline: none;
@@ -50,6 +62,15 @@ export default {
   font-size: 1rem;
   color: var(--lblue);
   font-weight: bold;
+}
+
+.submit {
+  background-color: var(--lblue);
+  color: #fff;
+}
+
+.submit:active {
+  box-shadow: 0 0 5px var(--lblue);
 }
 
 .selected {
