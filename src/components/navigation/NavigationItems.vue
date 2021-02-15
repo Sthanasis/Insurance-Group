@@ -1,39 +1,25 @@
 <template>
   <ul>
     <BurgerMenu />
-    <router-link class="navigationItem" :to="link1" active-class="active" exact
-      ><a>
-        {{ $t('navigation.navItem1') }}
-      </a></router-link
-    >
-    <router-link class="navigationItem" :to="link2" active-class="active" exact
-      ><a>
-        {{ $t('navigation.navItem2') }}
-      </a></router-link
-    >
-    <router-link class="navigationItem" :to="link3" active-class="active" exact
-      ><a>
-        {{ $t('navigation.navItem3') }}
-      </a></router-link
-    >
-    <router-link class="navigationItem" :to="link4" active-class="active" exact
-      ><a>
-        {{ $t('navigation.navItem4') }}
-      </a></router-link
-    >
+    <NavigationItem
+      v-for="navItem in navItems"
+      :key="navItem.id"
+      :caption="navItem.caption"
+      :isSelected="navItem.isSelected"
+      :id="navItem.id"
+      :selectedId="selectedId"
+      @navigate="navigateToItem"
+    />
   </ul>
 </template>
 
 <script>
+import NavigationItem from '../navigation/NavigationItem';
 import BurgerMenu from '../navigation/BurgerMenu.vue';
 export default {
   data() {
     return {
       selectedId: null,
-      link1: { name: 'Company', hash: '#company' },
-      link2: { name: 'ProductsAndServices', hash: '#ProductsAndServices' },
-      link3: { name: 'Collaborating', hash: '#collaboratingCompanies' },
-      link4: { name: 'Contact', hash: '#contact' },
     };
   },
   props: {
@@ -43,6 +29,7 @@ export default {
   },
   components: {
     BurgerMenu,
+    NavigationItem,
   },
   methods: {
     navigateToItem(event) {
