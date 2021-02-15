@@ -13,7 +13,7 @@ body {
 }
 
 *[data-icon]:before {
-  color: var(--lblue);
+  color: #fff;
 }
 
 [data-icon='email']:before {

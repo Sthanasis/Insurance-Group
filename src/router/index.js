@@ -17,26 +17,28 @@ const router = new VueRouter({
       path: '/',
       name: 'Home',
       component: Home,
-    },
-    {
-      path: '/',
-      name: 'Company',
-      component: Company,
-    },
-    {
-      path: '/',
-      name: 'ProductsAndServices',
-      component: ProductsAndServices,
-    },
-    {
-      path: '/',
-      name: 'Collaborating',
-      component: Collaborating,
-    },
-    {
-      path: '/',
-      name: 'Contact',
-      component: Contact,
+      children: [
+        {
+          path: '/company',
+          name: 'Company',
+          component: Company,
+        },
+        {
+          path: '/products',
+          name: 'ProductsAndServices',
+          component: ProductsAndServices,
+        },
+        {
+          path: '/collaborating',
+          name: 'Collaborating',
+          component: Collaborating,
+        },
+        {
+          path: '/contact',
+          name: 'Contact',
+          component: Contact,
+        },
+      ],
     },
   ],
   scrollBehavior(to, from, savedPosition) {
