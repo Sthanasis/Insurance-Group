@@ -1,5 +1,5 @@
 <template>
-  <div class="Company pageContainer">
+  <div id="company" class="Company pageContainer">
     <div class="colors">
       <div style="background-color: var(--lblue)"></div>
       <div style="background-color: var(--yellow)"></div>

@@ -10,6 +10,7 @@ body {
   --pink: #db4187;
   --mustard: #d7d36c;
   --lgreen: #00b2cc;
+  scroll-behavior: smooth;
 }
 
 *[data-icon]:before {
@@ -51,7 +52,7 @@ body {
 }
 
 .header {
-  padding-top: 50px;
+  padding-top: 74px;
 }
 
 .header span {
