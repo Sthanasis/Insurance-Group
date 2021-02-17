@@ -4,6 +4,8 @@
       v-if="element === 'input'"
       :type="inputType"
       :placeholder="placeholder"
+      v-bind:value="value"
+      @input="$emit('input', $event.target.value)"
     />
     <textarea
       v-else-if="element === 'textarea'"
@@ -11,6 +13,8 @@
       id=""
       cols="57"
       rows="10"
+      v-bind:value="value"
+      @input="$emit('input', $event.target.value)"
     ></textarea>
   </div>
 </template>
@@ -18,6 +22,9 @@
 <script>
 export default {
   props: {
+    value: {
+      type: String,
+    },
     placeholder: {
       type: String,
     },

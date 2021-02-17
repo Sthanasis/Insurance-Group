@@ -51,6 +51,7 @@ export default {
   position: absolute;
   padding: 20px;
   text-align: left;
+  top: 0;
 }
 
 .sidedrawer .LanguageContainer {

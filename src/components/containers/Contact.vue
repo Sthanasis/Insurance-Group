@@ -14,24 +14,28 @@
           element="input"
           inputType="text"
           :placeholder="$t('input.name')"
-          :bindToValue.sync="emailData.email"
+          v-model="emailData.name"
         />
         <Input
           element="input"
           inputType="text"
           placeholder="Email"
-          :bindToValue.sync="emailData.name"
+          v-model="emailData.email"
         />
       </div>
       <div class="textarea">
         <h4>{{ $t('contact.sendMessage') }}</h4>
-        <Input element="textarea" :bindToValue.sync="emailData.message" />
+        <Input element="textarea" v-model="emailData.message" />
       </div>
       <div v-for="item in items" :key="item" :class="item">
         <InfoItem :item="item" />
       </div>
       <div class="submit">
-        <Button type="submit" :caption="$t('button.submit')" />
+        <Button
+          type="submit"
+          :caption="$t('button.submit')"
+          @clickevent="sendEmail"
+        />
       </div>
     </div>
     <Map />
@@ -43,9 +47,12 @@ import Input from '../UI/Input';
 import Button from '../UI/Button';
 import InfoItem from '../UI/Infoitem';
 import items from '@/mixins/contact';
+import toasts from '@/mixins/toasts';
 import Map from '../Utilities/Map';
+import { sendEmail } from '@/common-js/common';
+
 export default {
-  mixins: [items],
+  mixins: [items, toasts],
   computed: {
     emailData() {
       return {
@@ -60,6 +67,27 @@ export default {
     InfoItem,
     Button,
     Map,
+  },
+  methods: {
+    sendEmail() {
+      this.trimEmailData();
+      console.log(this.emailData);
+      sendEmail(this.emailData)
+        .then(res => {
+          if (res.data.status === 'success') {
+            this.successToast('E-mail sent successfully');
+          }
+        })
+        .catch(err => {
+          this.errorToast('Something went wrong.');
+          console.log(err);
+        });
+    },
+    trimEmailData() {
+      for (let key in this.emailData) {
+        this.emailData[key] = this.emailData[key].trim();
+      }
+    },
   },
 };
 </script>

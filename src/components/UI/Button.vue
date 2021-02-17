@@ -37,7 +37,7 @@ export default {
       if (this.type === 'submit') {
         classname = 'submit';
       }
-      return 'btn ' + classname;
+      return 'button ' + classname;
     },
   },
   methods: {
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-.btn {
+.button {
   border: none;
   padding: 10px;
   font-weight: bold;

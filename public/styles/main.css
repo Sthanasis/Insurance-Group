@@ -1,6 +1,20 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  line-height: 1 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: initial !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
+  margin-bottom: revert !important;
+  margin-top: revert !important;
 }
 
 :root {
@@ -11,6 +25,7 @@ body {
   --mustard: #d7d36c;
   --lgreen: #00b2cc;
   scroll-behavior: smooth;
+  line-height: 1 !important;
 }
 
 *[data-icon]:before {

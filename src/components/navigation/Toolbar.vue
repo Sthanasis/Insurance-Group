@@ -80,8 +80,9 @@ nav {
   width: 100%;
   background-color: #ffffff;
   box-shadow: 0 0 5px gray;
-  display: flex;
+  display: flex !important;
   justify-content: space-around;
+  align-items: center;
   z-index: 3;
   height: 74px;
 }
@@ -90,6 +91,7 @@ nav ul {
   display: flex;
   justify-content: center;
   padding: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 500px) {

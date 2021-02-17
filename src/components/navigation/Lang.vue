@@ -83,8 +83,8 @@ export default {
 }
 
 .LanguageContainer img {
-  height: 25px;
-  width: 40px;
+  height: 20px;
+  width: 30px;
 }
 
 .langModal img {
