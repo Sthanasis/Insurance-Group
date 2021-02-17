@@ -1,12 +1,17 @@
 <template>
-  <button
-    :id="id"
-    :class="[className, selected ? 'selected' : '']"
-    :data-target="dataTarget"
-    @click="click($event)"
-  >
-    {{ caption }}
-  </button>
+  <div>
+    <b-spinner variant="info" type="grow" v-if="disabled"></b-spinner>
+    <button
+      v-else
+      :id="id"
+      :class="[className, selected ? 'selected' : '']"
+      :data-target="dataTarget"
+      :disabled="disabled"
+      @click="click($event)"
+    >
+      {{ caption }}
+    </button>
+  </div>
 </template>
 
 <script>
@@ -25,6 +30,9 @@ export default {
       type: String,
     },
     selected: {
+      type: Boolean,
+    },
+    disabled: {
       type: Boolean,
     },
   },

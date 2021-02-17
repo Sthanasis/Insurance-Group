@@ -34,6 +34,7 @@
         <Button
           type="submit"
           :caption="$t('button.submit')"
+          :disabled="emailSent"
           @clickevent="sendEmail"
         />
       </div>
@@ -53,6 +54,11 @@ import { sendEmail } from '@/common-js/common';
 
 export default {
   mixins: [items, toasts],
+  data() {
+    return {
+      emailSent: false,
+    };
+  },
   computed: {
     emailData() {
       return {
@@ -70,23 +76,67 @@ export default {
   },
   methods: {
     sendEmail() {
+      this.emailSent = true;
       this.trimEmailData();
-      console.log(this.emailData);
-      sendEmail(this.emailData)
-        .then(res => {
-          if (res.data.status === 'success') {
-            this.successToast('E-mail sent successfully');
-          }
-        })
-        .catch(err => {
-          this.errorToast('Something went wrong.');
-          console.log(err);
-        });
+      if (this.emailIsValid()) {
+        sendEmail(this.emailData)
+          .then(res => {
+            if (res.data.status === 'success') {
+              this.successToast(this.$t('utils.email_sent'));
+            }
+            for (let key in this.emailData) {
+              this.emailData[key] = '';
+            }
+            this.emailSent = false;
+          })
+          .catch(err => {
+            this.errorToast(this.$t('utils.error'));
+            this.emailSent = false;
+            console.log(err);
+          });
+      } else {
+        this.emailSent = false;
+      }
     },
     trimEmailData() {
       for (let key in this.emailData) {
         this.emailData[key] = this.emailData[key].trim();
       }
+    },
+    validateEmail(email) {
+      const re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+      if (re.test(email)) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    emailIsValid() {
+      let isValid = true;
+      if (this.emailData.name === '') {
+        isValid = false;
+        this.errorToast(this.$t('emailform.name_missing'));
+        return isValid;
+      }
+
+      if (this.emailData.email === '') {
+        isValid = false;
+        this.errorToast(this.$t('emailform.email_missing'));
+        return isValid;
+      } else {
+        if (!this.validateEmail(this.emailData.email)) {
+          this.errorToast(this.$t('emailform.email_invalid'));
+          isValid = false;
+          return isValid;
+        }
+      }
+
+      if (this.emailData.message === '') {
+        isValid = false;
+        this.errorToast(this.$t('emailform.message_missing'));
+        return isValid;
+      }
+      return isValid;
     },
   },
 };
@@ -148,6 +198,22 @@ export default {
 @media (max-width: 992px) {
   .grid-container {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      'phone'
+      'mobile'
+      'email'
+      'facebook'
+      'location'
+      'inputs'
+      'textarea'
+      'textarea'
+      'textarea'
+      'textarea'
+      'submit';
+  }
+
+  .grid-container .infoItem span:first-of-type {
+    margin-right: 5px;
   }
 
   .submit {
