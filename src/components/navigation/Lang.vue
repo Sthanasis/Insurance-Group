@@ -107,5 +107,9 @@ export default {
   .LanguageContainer {
     display: none;
   }
+
+  .langModal {
+    top: initial;
+  }
 }
 </style>

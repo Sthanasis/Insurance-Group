@@ -2,6 +2,7 @@
   <button
     :id="id"
     :class="[className, selected ? 'selected' : '']"
+    :data-target="dataTarget"
     @click="click($event)"
   >
     {{ caption }}
@@ -12,6 +13,9 @@
 export default {
   props: {
     caption: {
+      type: String,
+    },
+    dataTarget: {
       type: String,
     },
     id: {
@@ -75,5 +79,11 @@ export default {
 
 .selected {
   color: var(--mblue);
+}
+
+@media (max-width: 992px) {
+  .selected {
+    color: #fff;
+  }
 }
 </style>

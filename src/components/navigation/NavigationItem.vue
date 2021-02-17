@@ -4,6 +4,7 @@
       :id="id"
       :caption="caption"
       :selected="id === selectedId"
+      :dataTarget="target"
       type="navItem"
       @clickevent="navigate"
     />
@@ -23,6 +24,9 @@ export default {
     isSelected: {
       type: Boolean,
     },
+    target: {
+      type: String,
+    },
     id: {
       type: Number,
     },
@@ -41,10 +45,16 @@ export default {
 <style>
 .navigationItem {
   border-right: 1px solid var(--lblue);
-  padding: 10px;
 }
 
 .navigationItem:last-of-type {
   border: none;
+}
+
+@media (max-width: 992px) {
+  .navigationItem {
+    border-right: none;
+    margin: 20px 0;
+  }
 }
 </style>

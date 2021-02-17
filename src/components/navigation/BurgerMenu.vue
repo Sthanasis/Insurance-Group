@@ -1,5 +1,5 @@
 <template>
-  <div class="burger">
+  <div class="burger" @click="toggleSideDrawer">
     <span></span>
     <span></span>
     <span></span>
@@ -7,7 +7,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toggleSideDrawer() {
+      this.$emit('toggleSidedrawer');
+    },
+  },
+};
 </script>
 
 <style scoped>

@@ -3,7 +3,12 @@
     <Logo />
     <NavigationItems :navItems="navItems" />
     <Lang />
-    <BurgerMenu />
+    <BurgerMenu @toggleSidedrawer="toggleSidedrawer" />
+    <SideDrawer
+      :navItems="navItems"
+      :showSideDrawer="showSideDrawer"
+      @closeSidedrawer="closeSidedrawer"
+    />
   </nav>
 </template>
 
@@ -12,10 +17,13 @@ import NavigationItems from './NavigationItems';
 import Logo from '../UI/Logo';
 import Lang from './Lang';
 import BurgerMenu from './BurgerMenu';
+import SideDrawer from './SideDrawer';
 
 export default {
   data() {
-    return {};
+    return {
+      showSideDrawer: false,
+    };
   },
   computed: {
     navItems() {
@@ -24,21 +32,25 @@ export default {
           id: 1,
           caption: this.$t('navigation.navItem1'),
           isSelected: false,
+          target: '#company',
         },
         {
           id: 2,
           caption: this.$t('navigation.navItem2'),
           isSelected: false,
+          target: '#products',
         },
         {
           id: 3,
           caption: this.$t('navigation.navItem3'),
           isSelected: false,
+          target: '#collaboratingCompanies',
         },
         {
           id: 4,
           caption: this.$t('navigation.navItem4'),
           isSelected: false,
+          target: '#contact',
         },
       ];
     },
@@ -48,6 +60,15 @@ export default {
     Logo,
     Lang,
     BurgerMenu,
+    SideDrawer,
+  },
+  methods: {
+    toggleSidedrawer() {
+      this.showSideDrawer = !this.showSideDrawer;
+    },
+    closeSidedrawer() {
+      this.showSideDrawer = false;
+    },
   },
 };
 </script>

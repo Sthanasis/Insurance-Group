@@ -1,5 +1,5 @@
 <template>
-  <div class="pageContainer">
+  <div id="contact" class="pageContainer">
     <div class="header">
       <span>
         {{ $t('navigation.navItem4') }}
@@ -34,6 +34,7 @@
         <Button type="submit" :caption="$t('button.submit')" />
       </div>
     </div>
+    <Map />
   </div>
 </template>
 
@@ -42,7 +43,7 @@ import Input from '../UI/Input';
 import Button from '../UI/Button';
 import InfoItem from '../UI/Infoitem';
 import items from '@/mixins/contact';
-
+import Map from '../Utilities/Map';
 export default {
   mixins: [items],
   computed: {
@@ -58,8 +59,8 @@ export default {
     Input,
     InfoItem,
     Button,
+    Map,
   },
-  methods: {},
 };
 </script>
 
@@ -114,5 +115,15 @@ export default {
 .grid-container .infoItem span:first-of-type {
   font-size: 30px;
   margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .submit {
+    padding-right: 0;
+  }
 }
 </style>

@@ -34,7 +34,7 @@ export default {
 <style>
 .service {
   border-bottom: 1px solid lightgray;
-  width: 30%;
+  width: 40%;
   font-size: 18px;
   padding: 20px 0;
 }
@@ -59,5 +59,11 @@ export default {
 .serviceHeader span:last-of-type::before {
   color: var(--mblue);
   cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .service {
+    width: 100%;
+  }
 }
 </style>

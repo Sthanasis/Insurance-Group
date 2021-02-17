@@ -56,4 +56,14 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+
+@media (max-width: 992px) {
+  .Input input {
+    width: 90%;
+  }
+
+  .Input textarea {
+    width: 100%;
+  }
+}
 </style>
