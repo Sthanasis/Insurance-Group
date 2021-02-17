@@ -29,8 +29,8 @@ export default {
 }
 
 @media (max-width: 992px) {
-  .infoItem span {
+  /* .infoItem span {
     display: none;
-  }
+  } */
 }
 </style>

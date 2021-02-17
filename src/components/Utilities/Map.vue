@@ -5,7 +5,7 @@
       ref="myMap"
       :zoom="16"
       :center="mapCenter"
-      :style="`height: 300px; width: 100%; margin-bottom: 30px;`"
+      style="height: 300px; width: 100%; margin-bottom: 30px; z-index: 1;"
       class="shadow-large"
     >
       <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
@@ -27,7 +27,6 @@ export default {
   },
   methods: {
     centerMap() {
-      console.log(this.$refs.myMap);
       this.$refs.myMap.fitBounds([this.marker]);
       this.$nextTick(() => this.$refs.myMap.setZoom([16]));
     },

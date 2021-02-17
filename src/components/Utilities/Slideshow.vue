@@ -59,4 +59,14 @@ export default {
   justify-content: space-around;
   padding: 5px 0px;
 }
+
+@media (max-width: 992px) {
+  .infoIcons {
+    display: none;
+  }
+
+  .motivate {
+    font-size: 1.5rem;
+  }
+}
 </style>

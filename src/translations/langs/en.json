@@ -66,5 +66,19 @@
   },
   "button": {
     "submit": "Send"
+  },
+  "buttons": {
+    "success": "Success",
+    "error": "Error"
+  },
+  "utils": {
+    "email_sent": "Message sent successfully.",
+    "error": "Something went wrong."
+  },
+  "emailform": {
+    "name_missing": "Please provide a name.",
+    "email_missing": "Please provide an email.",
+    "email_invalid": "Please provide a valid email address.",
+    "message_missing": "Please provide a message."
   }
 }

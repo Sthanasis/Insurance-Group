@@ -30,14 +30,6 @@ export default {
     NavigationItem,
     BurgerMenu,
   },
-  methods: {
-    navigateToItem(event) {
-      const hash = document.querySelector(event.target.dataset.target);
-
-      hash.scrollIntoView();
-      this.selectedId = parseInt(event.target.id);
-    },
-  },
 };
 </script>
 

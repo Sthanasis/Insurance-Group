@@ -11,5 +11,12 @@ export default {
       this.selectedId = parseInt(event.target.id);
       this.$emit('closeSidedrawer');
     },
+    returnHome() {
+      window.scrollTo(0, 0);
+      this.selectedId = 0;
+      if (document.querySelector('.button.selected'))
+        document.querySelector('.button.selected').classList.remove('selected');
+      this.$emit('closeSidedrawer');
+    },
   },
 };

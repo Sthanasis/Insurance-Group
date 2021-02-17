@@ -70,4 +70,10 @@ export default {};
 .Company ul li:last-of-type {
   margin-bottom: 40px;
 }
+
+@media (max-width: 992px) {
+  .Company ul {
+    font-size: 1rem;
+  }
+}
 </style>

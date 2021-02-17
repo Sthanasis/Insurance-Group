@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <Logo />
+    <div @click="returnHome" data-target="#home">
+      <Logo />
+    </div>
     <NavigationItems :navItems="navItems" />
     <Lang />
     <BurgerMenu @toggleSidedrawer="toggleSidedrawer" />
@@ -18,8 +20,10 @@ import Logo from '../UI/Logo';
 import Lang from './Lang';
 import BurgerMenu from './BurgerMenu';
 import SideDrawer from './SideDrawer';
+import navigation from '@/mixins/navigation';
 
 export default {
+  mixins: [navigation],
   data() {
     return {
       showSideDrawer: false,

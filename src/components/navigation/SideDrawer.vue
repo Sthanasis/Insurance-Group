@@ -1,7 +1,9 @@
 <template>
   <transition name="slide">
     <div class="sidedrawer" v-if="showSideDrawer">
-      <Logo />
+      <div @click="returnHome" data-target="#home">
+        <Logo />
+      </div>
       <div style="padding: 15px;">
         <NavigationItem
           v-for="navItem in navItems"
