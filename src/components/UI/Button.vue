@@ -62,10 +62,16 @@ export default {
   background-color: transparent;
   outline: none;
   border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  color: var(--lblue);
+  padding: 10px;
   font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: var(--lblue);
+  color: #fff;
 }
 
 .submit {

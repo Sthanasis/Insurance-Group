@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --mblue: #04596a;
   --lblue: #01b1ca;
@@ -13,9 +8,12 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 *[data-icon]:before {
-  font-size: 25px;
-  margin: 0 5px 0 10px;
   color: var(--lblue);
 }
 
@@ -67,9 +65,14 @@ body {
   width: 80%;
   margin: auto;
   margin-bottom: 10px;
+  padding-bottom: 40px;
   border-bottom: 2px solid var(--lblue);
 }
 
 .pageContainer:last-of-type {
   border-bottom: none;
+}
+
+.subheader {
+  margin: 40px 0;
 }

@@ -59,4 +59,9 @@ export default {
   justify-content: space-around;
   padding: 5px 0px;
 }
+
+.infoIcons .infoItem span:first-of-type {
+  font-size: 25px;
+  margin: 0 10px;
+}
 </style>

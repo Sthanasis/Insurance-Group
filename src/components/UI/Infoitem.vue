@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .infoItem span {
   color: white;
   opacity: 1;

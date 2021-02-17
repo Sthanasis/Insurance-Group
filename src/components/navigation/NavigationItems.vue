@@ -27,8 +27,8 @@ export default {
     },
   },
   components: {
-    NavigationItem,
     BurgerMenu,
+    NavigationItem,
   },
   methods: {
     navigateToItem(event) {
@@ -41,4 +41,24 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.navigationItem {
+  border-right: 1px solid var(--lblue);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--lblue) !important;
+  font-weight: bold;
+}
+
+.active {
+  color: var(--mblue) !important;
+}
+
+.navigationItem:visited {
+  color: initial;
+}
+
+.navigationItem:last-of-type {
+  border: none;
+}
+</style>
