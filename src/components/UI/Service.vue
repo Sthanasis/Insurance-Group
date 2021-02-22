@@ -1,12 +1,14 @@
 <template>
   <div class="service">
     <div class="serviceHeader">
-      <span :data-icon="service.icon"></span>
+      <img :src="require(`@/assets/services/${service.icon}.svg`)" />
       <span>{{ service.description }}</span>
       <span data-icon="down" @click="toggleContent"></span>
     </div>
     <div v-if="show" class="serviceContent">
-      <span>{{ service.content }}</span>
+      <ul>
+        <li v-for="item in service.content" :key="item">{{ item }}</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -34,7 +36,7 @@ export default {
 <style>
 .service {
   border-bottom: 1px solid lightgray;
-  width: 40%;
+  width: 50%;
   font-size: 18px;
   padding: 20px 0;
 }
@@ -45,9 +47,10 @@ export default {
 
 .serviceHeader {
   display: flex;
+  align-items: center;
 }
 
-.serviceHeader span:nth-of-type(2) {
+.serviceHeader span:first-of-type {
   color: var(--mblue);
   font-weight: bold;
 }
@@ -59,6 +62,27 @@ export default {
 .serviceHeader span:last-of-type::before {
   color: var(--mblue);
   cursor: pointer;
+}
+
+.service img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.service ul {
+  margin-top: 1rem;
+  width: 95%;
+  margin: auto;
+}
+
+.service ul li {
+  margin: 10px 0;
+  color: var(--mblue);
+}
+
+.service ul li::marker {
+  color: var(--lblue);
 }
 
 @media (max-width: 992px) {
