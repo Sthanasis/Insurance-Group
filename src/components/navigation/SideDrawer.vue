@@ -93,7 +93,7 @@ export default {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   .sidedrawer {
     display: none;
   }

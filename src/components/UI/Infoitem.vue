@@ -27,10 +27,4 @@ export default {
   opacity: 1;
   align-self: center;
 }
-
-@media (max-width: 992px) {
-  /* .infoItem span {
-    display: none;
-  } */
-}
 </style>

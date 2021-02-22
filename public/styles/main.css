@@ -20,8 +20,8 @@ h6 {
 :root {
   --mblue: #04596a;
   --lblue: #01b1ca;
-  --yellow: #f5cb4f;
-  --pink: #db4187;
+  --yellow: #f5cb4f !important;
+  --pink: #db4187 !important;
   --mustard: #d7d36c;
   --lgreen: #00b2cc;
   scroll-behavior: smooth;

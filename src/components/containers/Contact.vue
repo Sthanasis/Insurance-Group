@@ -185,7 +185,6 @@ export default {
 .submit {
   grid-area: submit;
   text-align: end;
-  padding-right: 15px;
 }
 .grid-container .infoItem span:last-of-type {
   color: var(--mblue);
@@ -198,6 +197,7 @@ export default {
 @media (max-width: 992px) {
   .grid-container {
     grid-template-columns: 1fr;
+
     grid-template-areas:
       'phone'
       'mobile'
@@ -218,6 +218,16 @@ export default {
 
   .submit {
     padding-right: 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .grid-container {
+    grid-template-rows: 0.5fr;
+    gap: 20px;
+  }
+  .inputs {
+    grid-template-columns: 1fr;
   }
 }
 </style>

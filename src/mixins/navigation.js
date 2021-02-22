@@ -10,6 +10,7 @@ export default {
       hash.scrollIntoView();
       this.selectedId = parseInt(event.target.id);
       this.$emit('closeSidedrawer');
+      console.log(this.selectedId);
     },
     returnHome() {
       window.scrollTo(0, 0);

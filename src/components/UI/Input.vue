@@ -8,7 +8,7 @@
       @input="$emit('input', $event.target.value)"
     />
     <textarea
-      v-else-if="element === 'textarea'"
+      v-if="element === 'textarea'"
       name=""
       id=""
       cols="57"
@@ -46,7 +46,7 @@ export default {
   font-weight: bold;
   background-color: lightcyan;
   padding: 10px;
-  width: 150px;
+  width: 100%;
   border-radius: 10px;
   margin-right: 10px;
 }
@@ -56,21 +56,12 @@ export default {
   font-weight: bold;
   background-color: lightcyan;
   padding: 5px;
-  width: 370px;
+  width: 100%;
+  height: 200px !important;
   border-radius: 10px;
 }
 textarea:focus,
 input:focus {
   outline: none;
-}
-
-@media (max-width: 992px) {
-  .Input input {
-    width: 90%;
-  }
-
-  .Input textarea {
-    width: 100%;
-  }
 }
 </style>

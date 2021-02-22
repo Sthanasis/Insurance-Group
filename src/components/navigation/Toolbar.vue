@@ -98,7 +98,7 @@ nav ul {
   margin-bottom: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 992px) {
   nav ul {
     display: none;
   }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="centerMap">Balles</button>
+    <Button icon="location" type="icon" @clickevent="centerMap" />
     <l-map
       ref="myMap"
       :zoom="16"
@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import Button from '../UI/Button';
 export default {
   data() {
     return {
@@ -28,8 +29,10 @@ export default {
   methods: {
     centerMap() {
       this.$refs.myMap.fitBounds([this.marker]);
-      this.$nextTick(() => this.$refs.myMap.setZoom([16]));
     },
+  },
+  components: {
+    Button,
   },
 };
 </script>

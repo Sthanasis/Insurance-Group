@@ -5,7 +5,6 @@
       v-for="navItem in navItems"
       :key="navItem.id"
       :caption="navItem.caption"
-      :isSelected="navItem.isSelected"
       :id="navItem.id"
       :selectedId="selectedId"
       :target="navItem.target"

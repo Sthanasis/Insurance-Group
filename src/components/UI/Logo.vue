@@ -15,6 +15,7 @@
 <style>
 .brandContainer {
   display: flex !important;
+  cursor: pointer;
 }
 
 .logo {

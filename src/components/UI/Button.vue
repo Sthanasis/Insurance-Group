@@ -7,6 +7,7 @@
       :class="[className, selected ? 'selected' : '']"
       :data-target="dataTarget"
       :disabled="disabled"
+      :data-icon="icon"
       @click="click($event)"
     >
       {{ caption }}
@@ -35,6 +36,9 @@ export default {
     disabled: {
       type: Boolean,
     },
+    icon: {
+      type: String,
+    },
   },
   computed: {
     className() {
@@ -44,6 +48,9 @@ export default {
       }
       if (this.type === 'submit') {
         classname = 'submit';
+      }
+      if (this.type === 'icon') {
+        classname = 'button-icon';
       }
       return 'button ' + classname;
     },
@@ -87,6 +94,10 @@ export default {
 
 .selected {
   color: var(--mblue);
+}
+
+.button-icon {
+  background-color: transparent;
 }
 
 @media (max-width: 992px) {

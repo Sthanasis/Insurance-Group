@@ -20,9 +20,9 @@ export default {
 .burger {
   height: 20px;
   width: 30px;
-  margin: auto;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   justify-content: space-between;
 }
 .burger span {
@@ -32,7 +32,7 @@ export default {
   background: var(--mblue);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 993px) {
   .burger {
     display: none;
   }

@@ -21,9 +21,6 @@ export default {
     selectedId: {
       type: Number,
     },
-    isSelected: {
-      type: Boolean,
-    },
     target: {
       type: String,
     },

@@ -103,7 +103,7 @@ export default {
   color: var(--lblue);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 992px) {
   .LanguageContainer {
     display: none;
   }
