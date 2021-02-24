@@ -156,6 +156,7 @@ export default {
     'textarea mobile'
     'textarea email'
     'textarea facebook'
+    'textarea linkedIn'
     'textarea location'
     'submit .';
 }
@@ -211,6 +212,7 @@ export default {
       'mobile'
       'email'
       'facebook'
+      'linkedIn'
       'location'
       'inputs'
       'textarea'

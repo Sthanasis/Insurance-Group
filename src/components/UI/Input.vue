@@ -57,7 +57,7 @@ export default {
   background-color: lightcyan;
   padding: 5px;
   width: 100%;
-  height: 200px !important;
+  height: 250px !important;
   border-radius: 10px;
 }
 textarea:focus,

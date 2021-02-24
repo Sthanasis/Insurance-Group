@@ -11,8 +11,8 @@ export const infoItems = {
   phone: '2310 029126',
   mobile: '6945 627619',
   location: 'Andrea Papandreou 18, Kalamaria 55132',
-  linkedIn: '',
-  email: 'a.efthymiou60@hotmail.com',
+  linkedIn: 'Efthymiou Athanasios - Insurance Group',
+  email: 'a.efthymiou60@gmail.com',
   facebook: 'Efthymiou Athanasios - Insurance Group',
 };
 
