@@ -36,8 +36,8 @@ export default {
 <style>
 .service {
   border-bottom: 1px solid lightgray;
-  width: 50%;
-  font-size: 18px;
+  width: 60%;
+
   padding: 20px 0;
 }
 
@@ -53,6 +53,7 @@ export default {
 .serviceHeader span:first-of-type {
   color: var(--mblue);
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .serviceHeader span:last-of-type {
@@ -77,8 +78,9 @@ export default {
 }
 
 .service ul li {
-  margin: 10px 0;
+  margin: 20px 0;
   color: var(--mblue);
+  font-size: 1.1rem;
 }
 
 .service ul li::marker {
@@ -88,6 +90,19 @@ export default {
 @media (max-width: 992px) {
   .service {
     width: 100%;
+  }
+
+  .serviceHeader span:first-of-type {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .service ul {
+    margin: 0;
+  }
+
+  .service ul li {
+    font-size: 1rem;
   }
 }
 </style>

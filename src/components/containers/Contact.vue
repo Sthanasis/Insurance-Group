@@ -24,7 +24,9 @@
         />
       </div>
       <div class="textarea">
-        <h4>{{ $t('contact.sendMessage') }}</h4>
+        <div style="font-size: 1rem; margin: 5px 0; font-weight:bold">
+          {{ $t('contact.sendMessage') }}
+        </div>
         <Input element="textarea" v-model="emailData.message" />
       </div>
       <div v-for="item in items" :key="item" :class="item">
@@ -146,7 +148,7 @@ export default {
 .grid-container {
   display: grid;
   gap: 30px;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 500px 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px 20px;
   grid-template-areas:
@@ -186,12 +188,18 @@ export default {
   grid-area: submit;
   text-align: end;
 }
+
 .grid-container .infoItem span:last-of-type {
   color: var(--mblue);
 }
+
 .grid-container .infoItem span:first-of-type {
   font-size: 30px;
   margin-right: 10px;
+}
+
+.grid-container .infoItem span:first-of-type::before {
+  color: var(--lblue);
 }
 
 @media (max-width: 992px) {
@@ -228,6 +236,10 @@ export default {
   }
   .inputs {
     grid-template-columns: 1fr;
+  }
+
+  .grid-container .infoItem span:last-of-type {
+    font-size: 15px;
   }
 }
 </style>

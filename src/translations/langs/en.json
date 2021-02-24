@@ -62,7 +62,7 @@
     "sendMessage": "Send us a message."
   },
   "input": {
-    "name": "Name"
+    "name": "Full Name"
   },
   "button": {
     "submit": "Send"
@@ -73,7 +73,7 @@
   },
   "utils": {
     "email_sent": "Message sent successfully.",
-    "error": "Something went wrong."
+    "error": "Something went wrong. Try again tomorrow."
   },
   "emailform": {
     "name_missing": "Please provide a name.",

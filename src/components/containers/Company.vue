@@ -57,18 +57,18 @@ export default {};
 }
 
 .Company ul {
-  font-size: 18px;
+  font-size: 1.5rem;
   color: var(--lblue);
   padding-left: 20px;
 }
 
 .Company ul li {
-  margin: 10px 0;
+  margin: 20px 0;
   font-weight: bold;
 }
 
 .Company ul li:last-of-type {
-  margin-bottom: 40px;
+  margin-bottom: 74px;
 }
 
 @media (max-width: 992px) {

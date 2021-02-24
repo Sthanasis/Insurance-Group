@@ -45,7 +45,7 @@ export default {
 <style>
 .companies-grid {
   display: grid;
-  margin: 50px 0;
+  margin: 50px 0 74px 0;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 5px 20px;
 }

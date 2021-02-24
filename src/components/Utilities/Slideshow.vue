@@ -56,8 +56,8 @@ export default {
   background-color: rgba(1, 177, 202, 0.2);
   z-index: 2;
   display: flex;
-  justify-content: space-around;
-  padding: 5px 0px;
+  justify-content: space-between;
+  padding: 5px 5%;
 }
 
 @media (max-width: 992px) {
@@ -66,7 +66,8 @@ export default {
   }
 
   .motivate {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 15%;
   }
 }
 </style>

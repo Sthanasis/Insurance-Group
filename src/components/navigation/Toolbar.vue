@@ -85,10 +85,11 @@ nav {
   background-color: #ffffff;
   box-shadow: 0 0 5px gray;
   display: flex !important;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   z-index: 3;
   height: 74px;
+  padding: 0 5%;
 }
 
 nav ul {

@@ -13,6 +13,16 @@
 <script></script>
 
 <style>
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../assets/fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: 'gilroy-bold';
+  src: url(../../assets/fonts/Gilroy-ExtraBold.otf);
+}
+
 .brandContainer {
   display: flex !important;
   cursor: pointer;
@@ -39,15 +49,22 @@
 
 .logoName span {
   color: var(--mblue);
+  font-family: 'gilroy-bold';
 }
 .logoName span:last-of-type {
   font-weight: normal;
   color: var(--lblue);
+  font-family: 'Gilroy';
 }
 
 @media (max-width: 992px) {
   .brandContainer {
-    padding: 0 15px;
+    /* padding: 0 15px; */
+  }
+
+  .logoName {
+    font-size: 17px;
+    margin-left: 5px;
   }
 
   .sidedrawer .logo::before,

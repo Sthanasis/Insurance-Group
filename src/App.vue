@@ -32,6 +32,7 @@ export default {
   font-family: 'sansPro';
   src: url(./assets/fonts/SourceSansPro-Regular.ttf);
 }
+
 #app {
   font-family: 'sansPro', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

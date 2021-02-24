@@ -19,11 +19,7 @@ export default {
 </script>
 
 <style>
-.Services {
-  width: 80%;
-}
-
 .service:last-of-type {
-  margin-bottom: 30px;
+  margin-bottom: 74px;
 }
 </style>
