@@ -36,7 +36,7 @@ export default {
 <style>
 .service {
   border-bottom: 1px solid lightgray;
-  width: 60%;
+  width: 70%;
 
   padding: 20px 0;
 }
@@ -80,7 +80,7 @@ export default {
 .service ul li {
   margin: 20px 0;
   color: var(--mblue);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .service ul li::marker {

@@ -57,7 +57,7 @@ export default {};
 }
 
 .Company ul {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--lblue);
   padding-left: 20px;
 }

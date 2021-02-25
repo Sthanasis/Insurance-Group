@@ -5,6 +5,7 @@
     <ProductsAndServices />
     <Collaborating />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Company from './components/containers/Company';
 import ProductsAndServices from './components/containers/ProductsAndServices';
 import Collaborating from './components/containers/Collaborating';
 import Contact from './components/containers/Contact';
+import Footer from './components/Utilities/Footer';
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     ProductsAndServices,
     Contact,
     Collaborating,
+    Footer,
   },
 };
 </script>
