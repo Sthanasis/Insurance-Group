@@ -98,6 +98,7 @@ export default {
 
 .button-icon {
   background-color: transparent;
+  font-weight: 100;
 }
 
 @media (max-width: 992px) {

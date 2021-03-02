@@ -4,12 +4,14 @@
       <Logo />
     </div>
     <NavigationItems :navItems="navItems" />
-    <Lang />
+    <Lang :language="language" @setLanguage="setLanguage" />
     <BurgerMenu @toggleSidedrawer="toggleSidedrawer" />
     <SideDrawer
       :navItems="navItems"
       :showSideDrawer="showSideDrawer"
       @closeSidedrawer="closeSidedrawer"
+      :language="language"
+      @setLanguage="setLanguage"
     />
   </nav>
 </template>
@@ -27,6 +29,7 @@ export default {
   data() {
     return {
       showSideDrawer: false,
+      language: localStorage.getItem('lang') || 'gr',
     };
   },
   computed: {
@@ -73,6 +76,14 @@ export default {
     closeSidedrawer() {
       this.showSideDrawer = false;
     },
+    setLanguage(lang) {
+      this.$i18n.locale = lang;
+      this.language = lang;
+      localStorage.setItem('lang', lang);
+    },
+  },
+  created() {
+    this.$i18n.locale = this.language;
   },
 };
 </script>

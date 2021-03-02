@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+.infoItem {
+  display: flex;
+}
+
 .infoItem span::before,
 .infoItem span {
   color: white;

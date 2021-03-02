@@ -34,22 +34,21 @@ export default {
   data() {
     return {
       show: false,
-      language: localStorage.getItem('lang') || 'en',
     };
+  },
+  props: {
+    language: {
+      type: String,
+    },
   },
   methods: {
     toggleModal() {
       this.show = !this.show;
     },
     setLanguage(lang) {
-      this.$i18n.locale = lang;
-      this.language = lang;
-      localStorage.setItem('lang', lang);
+      this.$emit('setLanguage', lang);
       this.show = !this.show;
     },
-  },
-  created() {
-    this.$i18n.locale = this.language;
   },
 };
 </script>

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Toolbar />
     <Home />
     <Company />
     <ProductsAndServices />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import Toolbar from './components/navigation/Toolbar';
 import Home from './components/containers/Home';
 import Company from './components/containers/Company';
 import ProductsAndServices from './components/containers/ProductsAndServices';
@@ -20,6 +22,7 @@ import Footer from './components/Utilities/Footer';
 export default {
   name: 'App',
   components: {
+    Toolbar,
     Home,
     Company,
     ProductsAndServices,

@@ -58,10 +58,6 @@
 }
 
 @media (max-width: 992px) {
-  .brandContainer {
-    /* padding: 0 15px; */
-  }
-
   .logoName {
     font-size: 17px;
     margin-left: 5px;
@@ -70,6 +66,13 @@
   .sidedrawer .logo::before,
   .sidedrawer .logoName span {
     color: #fff !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .logoName {
+    font-size: 14px;
+    margin-left: 5px;
   }
 }
 </style>

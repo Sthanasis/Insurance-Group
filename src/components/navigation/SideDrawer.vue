@@ -1,10 +1,20 @@
 <template>
   <transition name="slide">
     <div class="sidedrawer" v-if="showSideDrawer">
-      <div @click="returnHome" data-target="#home">
-        <Logo />
+      <div
+        style="display:flex; justify-content:space-between;align-items:center;"
+      >
+        <div @click="returnHome" data-target="#home">
+          <Logo />
+        </div>
+        <Button
+          type="icon"
+          icon="menu-arrow"
+          @clickevent="$emit('closeSidedrawer')"
+        />
       </div>
-      <div style="padding: 15px;">
+
+      <div style="padding:0 15px;">
         <NavigationItem
           v-for="navItem in navItems"
           :key="navItem.id"
@@ -16,7 +26,7 @@
           @navigate="navigateToItem"
         />
       </div>
-      <Lang />
+      <Lang :language="language" v-on="$listeners" />
     </div>
   </transition>
 </template>
@@ -24,6 +34,7 @@
 <script>
 import NavigationItem from './NavigationItem';
 import navigation from '@/mixins/navigation';
+import Button from '../UI/Button';
 import Lang from './Lang';
 import Logo from '../UI/Logo';
 
@@ -33,6 +44,7 @@ export default {
     NavigationItem,
     Logo,
     Lang,
+    Button,
   },
   props: {
     navItems: {
@@ -40,6 +52,9 @@ export default {
     },
     showSideDrawer: {
       type: Boolean,
+    },
+    language: {
+      type: String,
     },
   },
 };
@@ -55,6 +70,12 @@ export default {
   text-align: left;
   top: 0;
   left: 0;
+}
+
+.sidedrawer .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sidedrawer .LanguageContainer {
@@ -97,6 +118,12 @@ export default {
 @media (min-width: 993px) {
   .sidedrawer {
     display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .sidedrawer .LanguageContainer {
+    padding: 0 20px;
   }
 }
 </style>

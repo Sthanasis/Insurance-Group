@@ -67,6 +67,19 @@ h6 {
   content: '\00c7';
 }
 
+[data-icon='copyright']:before {
+  content: '\00c8';
+  color: #fff;
+  margin: 2px;
+  font-size: 17px;
+}
+
+[data-icon='menu-arrow']:before {
+  content: '\00c9';
+  font-size: 35px;
+  color: #fff;
+}
+
 .header {
   padding-top: 74px;
 }
