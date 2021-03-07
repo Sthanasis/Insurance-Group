@@ -82,6 +82,7 @@ h6 {
 
 .header {
   padding-top: 74px;
+  margin-bottom: 74px;
 }
 
 .header span {
@@ -103,7 +104,7 @@ h6 {
   border-bottom: none;
 }
 
-#contact {
+#announcements {
   border-bottom: none;
 }
 

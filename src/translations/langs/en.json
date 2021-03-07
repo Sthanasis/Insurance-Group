@@ -4,7 +4,8 @@
     "navItem1": "Our company",
     "navItem2": "Products and Services",
     "navItem3": "Collaborating Companies",
-    "navItem4": "Contact"
+    "navItem4": "Contact",
+    "navItem5": "Announcements"
   },
   "language": {
     "english": "English",
@@ -43,85 +44,85 @@
     "service2": {
       "description": "Financial Insurance",
       "content": {
-        "dot1": "Δημιουργία Ιδιωτικής Σύνταξης (περιοδικών καταβολών και εφάπαξ καταβολής).",
-        "dot2": "Αποταμίευση με σκοπό τις σπουδές των παιδιών σας.",
-        "dot3": "Επενδύσεις σε Αμοιβαία Κεφάλαια (χαμηλού, μεσαίου και υψηλού ρίσκου)."
+        "dot1": "Private pension.",
+        "dot2": "Saving for your children's education.",
+        "dot3": "Investments in Mutual Funds (low, medium and high risk)."
       }
     },
     "service3": {
       "description": "Income Insurance",
       "content": {
-        "dot1": "Σύνταξη αναπηρίας (από ασθένεια ή ατύχημα).",
-        "dot2": "Εξασφάλιση του εισοδήματος (από ασθένεια ή ατύχημα).",
-        "dot3": "Ασφάλιση Ζωής (από ασθένεια ή ατύχημα)."
+        "dot1": "Disability pension (caused by sickness or accident).",
+        "dot2": "Income security.",
+        "dot3": "Life insurance."
       }
     },
     "service4": {
       "description": "Residence Insurance",
       "content": {
-        "dot1": "Ασφάλιση της κύριας και εξωτικής κατοικίας.",
-        "dot2": "Ασφάλιση του δανείου της κατοικίας (και για συμβόλαια που έχετε συνάψει με τράπεζα).",
-        "dot3": "Κάλυψη της αστικής ευθύνης της οικογένειας και των κατοικίδιων ζώων.",
-        "dot4": "Ασφάλιση και εγκατάσταση φωτοβολταϊκών."
+        "dot1": "Main and exotic residence insurance.",
+        "dot2": "Home loan insurance (also for bank contracts).",
+        "dot3": "Coverage of family and pet liability.",
+        "dot4": "Insurance and installation of photovoltaics."
       }
     },
     "service5": {
       "description": "Company Insurance",
       "content": {
-        "dot1": "Ασφάλιση της επιχείρησης.",
-        "dot2": "Ασφάλιση του προσωπικού (συνταξιοδοτικά και νοσοκομειακά προγράμματα).",
-        "dot3": "Κάλυψη της αστικής ευθύνης.",
-        "dot4": "Ασφάλιση του ηλεκτρονικού εξοπλισμού.",
-        "dot5": "Κάλυψη της αστικής ευθύνης προϊόντων.",
-        "dot6": "Ασφάλιση και εγκατάσταση φωτοβολταϊκών.",
-        "dot7": "Ασφάλιση πιστώσεων."
+        "dot1": "Business insurance.",
+        "dot2": "Staff insurance (pension and hospital plans).",
+        "dot3": "Coverage of civil liability.",
+        "dot4": "Insurance of electronic equipment.",
+        "dot5": "Product liability coverage.",
+        "dot6": "Insurance and installation of photovoltaics.",
+        "dot7": "Credit insurance."
       }
     },
     "service6": {
       "description": "Civil Insurance",
       "content": {
-        "dot1": "Κάλυψη Επαγγελματικής Αστικής Ευθύνης (Γιατρών, Δικηγόρων, Λογιστών, Ηλεκτρολόγων, Μηχανικών κλπ.).",
-        "dot2": "Κάλυψη Αστικής Ευθύνης Επιχειρήσεων (Καφέ, Ζαχαροπλαστείων, Ξενοδοχείων, Φροντιστηρίων, Φαρμακείων, Κομμωτηρίων, ανέγερση οικοδομών κλπ.)."
+        "dot1": "Professional Liability Coverage (Doctors, Lawyers, Accountants, Electricians, Engineers, etc.).",
+        "dot2": "Business Liability Coverage (Cafes, Confectioneries, Hotels, Tutoring, Pharmacies, Hairdressers, construction of buildings, etc.)."
       }
     },
     "service7": {
       "description": "Vehicle Insurance",
       "content": {
-        "dot1": "Ασφάλιση Ε.Ι.Χ., Φ.Ι.Χ., Φ.Ι.Χ. Αγροτικά, Τρακτέρ, Φ.Δ.Χ., Δίκυκλων."
+        "dot1": "Private use Vehicle Insurance, Agricultural, Tractors, Two-wheelers etc."
       }
     },
     "service8": {
       "description": "Boat Insurance",
       "content": {
-        "dot1": "Ασφάλιση σκαφών Αναψυχής, Ιστιοπλοϊκών, Επαγγελματικών."
+        "dot1": "Pleasure Boat, Sailing boat, Professional boat Insurance."
       }
     },
     "service9": {
       "description": "Other Insurances",
       "content": {
-        "dot1": "Ασφάλιση Μεταφορών.",
-        "dot2": "Ταξιδιωτική Ασφάλιση.",
-        "dot3": "Ασφάλιση Προσωπικών Δεδομένων (Cyber Risk)."
+        "dot1": "Transport Insurance.",
+        "dot2": "Travel Insurance.",
+        "dot3": "Personal Data Insurance (Cyber ​​Risk)."
       }
     },
     "service10": {
       "description": "Legal Protection ARAG Insurance",
       "content": {
-        "dot1": "Νομική Προστασία της οικογένειας.",
-        "dot2": "Νομική Προστασία της επιχείρησης και του επιχειρηματία.",
-        "dot3": "Νομική Προστασία επαγγελματιών ( Γιατρών, Λογιστών κλπ.).",
-        "dot4": "Νομική Προστασία οχήματος και οδηγού.",
-        "dot5": "Νομική Προστασία σκαφών.",
-        "dot6": "Νομική Προστασία εκμίσθωσης ακινήτων .",
-        "dot7": "Νομική Προστασία διαχείρισης πολυκατοικιών."
+        "dot1": "Legal protection of the family.",
+        "dot2": "Legal protection of the company and the entrepreneur.",
+        "dot3": "Legal Protection of professionals (Doctors, Accountants, etc.).",
+        "dot4": "Legal protection of vehicle and driver.",
+        "dot5": "Legal protection of boats.",
+        "dot6": "Legal Protection of real estate leasing.",
+        "dot7": "Legal Protection of apartment building management."
       }
     },
     "service11": {
       "description": "Energy Insurance",
       "content": {
-        "dot1": "Διαμεσολάβηση για εγκατάσταση φωτοβολταϊκών.",
-        "dot2": "Διαμεσολάβηση για παροχή ηλεκτρικής ενέργειας για την κατοικία (κύρια και εξοχική) και για την επιχείρηση.",
-        "dot3": "Διαμεσολάβηση για παροχή φυσικού αερίου για την κατοικία (κύρια και εξοχική) και για την επιχείρηση."
+        "dot1": "Mediation for the installation of photovoltaics.",
+        "dot2": "Mediation for recidence or buisness electricity supply.",
+        "dot3": "Mediation for residence or buisness gas supply."
       }
     }
   },
@@ -148,5 +149,24 @@
     "email_missing": "Please provide an email.",
     "email_invalid": "Please provide a valid email address.",
     "message_missing": "Please provide a message."
+  },
+  "footer": {
+    "workhours": "Work hours",
+    "monday": "Monday",
+    "friday": "Friday",
+    "findus": "Find us"
+  },
+  "announcements": {
+    "1": {
+      "date": "Mar 16, 2020",
+      "content": "Due to Covid 19 visitors are required to wear protective masks inside our office space."
+    },
+    "2": {
+      "date": "Feb 20, 2021",
+      "content": "We stand aside our clients and we keep on providing to your needs daily, with the use of digital technology and our associates' collaborative work. We continue to offer the same high level of service in every condition."
+    }
+  },
+  "other": {
+    "location": "Andrea Papandreou 18, Kalamaria 55132"
   }
 }

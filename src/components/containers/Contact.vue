@@ -29,7 +29,7 @@
         </div>
         <Input element="textarea" v-model="emailData.message" />
       </div>
-      <div v-for="item in items" :key="item" :class="item">
+      <div v-for="item in items" :key="item.icon" :class="item.icon">
         <InfoItem :item="item" />
       </div>
       <div class="submit">

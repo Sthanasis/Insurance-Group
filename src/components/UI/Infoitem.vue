@@ -1,21 +1,20 @@
 <template>
   <div class="infoItem">
-    <span :data-icon="item"></span>
+    <span :data-icon="item.icon"></span>
     <span style="font-weight:bold;">{{ info }}</span>
   </div>
 </template>
 
 <script>
-import { infoItems } from '../../common-js/common';
 export default {
   props: {
     item: {
-      type: String,
+      type: Object,
     },
   },
   computed: {
     info() {
-      return infoItems[this.item];
+      return this.item.info;
     },
   },
 };

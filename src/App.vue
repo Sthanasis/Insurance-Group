@@ -6,6 +6,7 @@
     <ProductsAndServices />
     <Collaborating />
     <Contact />
+    <Announcements />
     <Footer />
   </div>
 </template>
@@ -17,6 +18,7 @@ import Company from './components/containers/Company';
 import ProductsAndServices from './components/containers/ProductsAndServices';
 import Collaborating from './components/containers/Collaborating';
 import Contact from './components/containers/Contact';
+import Announcements from './components/containers/Announcements';
 import Footer from './components/Utilities/Footer';
 
 export default {
@@ -28,6 +30,7 @@ export default {
     ProductsAndServices,
     Contact,
     Collaborating,
+    Announcements,
     Footer,
   },
 };

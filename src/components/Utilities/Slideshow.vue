@@ -2,7 +2,7 @@
   <div class="background">
     <img src="../../assets/HOME.svg" alt="" />
     <div class="infoIcons">
-      <InfoItem v-for="i in items" :key="i" :item="i" />
+      <InfoItem v-for="i in items" :key="i.icon" :item="i" />
     </div>
     <div class="motivate">
       {{ $t('motivate.row1') }} <br />
@@ -53,7 +53,7 @@ export default {
 .infoIcons {
   position: absolute;
   width: 100%;
-  background-color: rgba(1, 177, 202, 0.2);
+  background-color: #067989;
   z-index: 2;
   display: flex;
   justify-content: space-between;

@@ -4,13 +4,13 @@
       <Logo />
       <hr />
       <div>
-        <span>Ωραριο Λειτουργίας</span>
-        <span>Δευτέρα - Παρασκευή</span>
+        <span>{{ $t('footer.workhours') }}</span>
+        <span>{{ $t('footer.monday') }} - {{ $t('footer.friday') }}</span>
         <span>09:30 - 21:00</span>
       </div>
       <hr />
       <div>
-        <span>Βρείτε μας</span>
+        <span>{{ $t('footer.findus') }}</span>
         <span data-icon="facebook"></span>
         <span data-icon="linkedIn"></span>
       </div>
