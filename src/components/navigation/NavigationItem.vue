@@ -54,4 +54,10 @@ export default {
     margin: 20px 0;
   }
 }
+
+@media (max-width: 350px) {
+  .navigationItem {
+    margin: 10px 0;
+  }
+}
 </style>

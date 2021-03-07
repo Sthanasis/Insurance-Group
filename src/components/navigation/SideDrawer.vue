@@ -123,7 +123,7 @@ export default {
 
 @media (max-width: 350px) {
   .sidedrawer .LanguageContainer {
-    padding: 0 20px;
+    padding: 10px 20px;
   }
 }
 </style>

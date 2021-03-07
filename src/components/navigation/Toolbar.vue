@@ -59,6 +59,12 @@ export default {
           isSelected: false,
           target: '#contact',
         },
+        {
+          id: 5,
+          caption: this.$t('navigation.navItem5'),
+          isSelected: false,
+          target: '#announcements',
+        },
       ];
     },
   },
