@@ -148,7 +148,7 @@ export default {
 .grid-container {
   display: grid;
   gap: 30px;
-  grid-template-columns: 500px 1fr;
+  grid-template-columns: 550px 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px 20px;
   grid-template-areas:
@@ -160,6 +160,7 @@ export default {
     'textarea location'
     'submit .';
 }
+
 .inputs {
   grid-area: inputs;
   display: grid;
@@ -167,24 +168,30 @@ export default {
   gap: 10px;
   /* justify-content: space-between; */
 }
+
 .textarea {
   grid-area: textarea;
 }
+
 .phone {
   grid-area: phone;
 }
 .mobile {
   grid-area: mobile;
 }
+
 .email {
   grid-area: email;
 }
+
 .facebook {
   grid-area: facebook;
 }
+
 .location {
   grid-area: location;
 }
+
 .submit {
   grid-area: submit;
   text-align: end;
@@ -201,12 +208,12 @@ export default {
 
 .grid-container .infoItem span:first-of-type::before {
   color: var(--lblue);
+  font-size: 30px;
 }
 
 @media (max-width: 992px) {
   .grid-container {
     grid-template-columns: 1fr;
-
     grid-template-areas:
       'phone'
       'mobile'
@@ -236,6 +243,7 @@ export default {
     grid-template-rows: 0.5fr;
     gap: 20px;
   }
+
   .inputs {
     grid-template-columns: 1fr;
   }

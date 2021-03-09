@@ -7,7 +7,7 @@
     </div>
     <div>
       <div v-for="a in announcements" :key="a" class="announcement">
-        <li style="color: var(--lblue);margin-bottom: 20px">
+        <li style="color: var(--lblue);margin-bottom: 20px;font-weight:bold">
           {{ $t(`announcements.${a}.date`) }}
         </li>
         <div>{{ $t(`announcements.${a}.content`) }}</div>
@@ -31,5 +31,11 @@ export default {
   font-size: 1.3rem;
   width: 80%;
   margin-bottom: 74px;
+}
+
+@media (max-width: 992px) {
+  .announcement div {
+    font-size: 1rem;
+  }
 }
 </style>
