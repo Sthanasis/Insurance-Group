@@ -1,5 +1,179 @@
 {
   "navigation": {
-    "language": "Italian"
+    "language": "Italian",
+    "navItem1": "Our company",
+    "navItem2": "Products and Services",
+    "navItem3": "Collaborating Companies",
+    "navItem4": "Contact",
+    "navItem5": "Announcements"
+  },
+  "language": {
+    "english": "English",
+    "greek": "Greek",
+    "italian": "Italian"
+  },
+  "motivate": {
+    "slide1": "Creiamo insieme.\n\nPer quello che amate di più ",
+    "hospital-title": "ASSICURAZIONE OSPEDALIERA",
+    "hospital": "La cura del bene più prezioso,\nla nostra salute",
+    "home-title": "RAMO CASA",
+    "home": "La vostra casa, ciò che amate di più\ndopo la vostra famiglia",
+    "family-title": "ASSICURAZIONE FAMIGLIARE",
+    "family": "La sicurezza è un atto di amore e responsabilità\nper la vostra famiglia",
+    "vehicle-title": "RAMO ASSICURATIVO VEICOLI",
+    "vehicle": "Assicurate il vostro veicolo con noi"
+  },
+  "company": {
+    "about": "Efthymiou Athanasios - Insurance Group was founded in 1991 with the purpose of making your life easier by providing insurance services.",
+    "header": "What makes us special and what is your gain.",
+    "item1": "Safety, liability and trust since 1991.",
+    "item2": {
+      "row1": "We are collaborating with companies that provide insurance services ",
+      "row2": "with the majority of them enlistig on the 'Fortune 500' and they address to ",
+      "row3": "over 200 million clients worldwide."
+    },
+    "item3": {
+      "row1": "Our clients trust us because we support them in time of need.",
+      "row2": "We attend their finnancial needs, we protect their fortune and their",
+      "row3": "company, and we help them plan for the future."
+    },
+    "item4": "We provide innovative and concluded services, based on your needs."
+  },
+  "services": {
+    "service1": {
+      "description": "Health Insurance",
+      "content": {
+        "dot1": "Inner hospital care in private medical clinics and public hospitals.",
+        "dot2": "Outer hospital care (examination and doctor services).",
+        "dot3": "Dental care."
+      }
+    },
+    "service2": {
+      "description": "Financial Insurance",
+      "content": {
+        "dot1": "Private pension.",
+        "dot2": "Saving for your children's education.",
+        "dot3": "Investments in Mutual Funds (low, medium and high risk)."
+      }
+    },
+    "service3": {
+      "description": "Income Insurance",
+      "content": {
+        "dot1": "Disability pension (caused by sickness or accident).",
+        "dot2": "Income security.",
+        "dot3": "Life insurance."
+      }
+    },
+    "service4": {
+      "description": "Residence Insurance",
+      "content": {
+        "dot1": "Main and exotic residence insurance.",
+        "dot2": "Home loan insurance (also for bank contracts).",
+        "dot3": "Coverage of family and pet liability.",
+        "dot4": "Insurance and installation of photovoltaics."
+      }
+    },
+    "service5": {
+      "description": "Company Insurance",
+      "content": {
+        "dot1": "Business insurance.",
+        "dot2": "Staff insurance (pension and hospital plans).",
+        "dot3": "Coverage of civil liability.",
+        "dot4": "Insurance of electronic equipment.",
+        "dot5": "Product liability coverage.",
+        "dot6": "Insurance and installation of photovoltaics.",
+        "dot7": "Credit insurance."
+      }
+    },
+    "service6": {
+      "description": "Civil Insurance",
+      "content": {
+        "dot1": "Professional Liability Coverage (Doctors, Lawyers, Accountants, Electricians, Engineers, etc.).",
+        "dot2": "Business Liability Coverage (Cafes, Confectioneries, Hotels, Tutoring, Pharmacies, Hairdressers, construction of buildings, etc.)."
+      }
+    },
+    "service7": {
+      "description": "Vehicle Insurance",
+      "content": {
+        "dot1": "Private use Vehicle Insurance, Agricultural, Tractors, Two-wheelers etc."
+      }
+    },
+    "service8": {
+      "description": "Boat Insurance",
+      "content": {
+        "dot1": "Pleasure Boat, Sailing boat, Professional boat Insurance."
+      }
+    },
+    "service9": {
+      "description": "Other Insurances",
+      "content": {
+        "dot1": "Transport Insurance.",
+        "dot2": "Travel Insurance.",
+        "dot3": "Personal Data Insurance (Cyber ​​Risk)."
+      }
+    },
+    "service10": {
+      "description": "Legal Protection ARAG Insurance",
+      "content": {
+        "dot1": "Legal protection of the family.",
+        "dot2": "Legal protection of the company and the entrepreneur.",
+        "dot3": "Legal Protection of professionals (Doctors, Accountants, etc.).",
+        "dot4": "Legal protection of vehicle and driver.",
+        "dot5": "Legal protection of boats.",
+        "dot6": "Legal Protection of real estate leasing.",
+        "dot7": "Legal Protection of apartment building management."
+      }
+    },
+    "service11": {
+      "description": "Energy Insurance",
+      "content": {
+        "dot1": "Mediation for the installation of photovoltaics.",
+        "dot2": "Mediation for recidence or buisness electricity supply.",
+        "dot3": "Mediation for residence or buisness gas supply."
+      }
+    }
+  },
+  "contact": {
+    "contactUs": "Do not hesitate to contact us with any question you may have.",
+    "sendMessage": "Send us a message."
+  },
+  "input": {
+    "name": "Full Name"
+  },
+  "button": {
+    "submit": "Send"
+  },
+  "buttons": {
+    "success": "Success",
+    "error": "Error"
+  },
+  "utils": {
+    "email_sent": "Message sent successfully.",
+    "error": "Something went wrong. Try again tomorrow."
+  },
+  "emailform": {
+    "name_missing": "Please provide a name.",
+    "email_missing": "Please provide an email.",
+    "email_invalid": "Please provide a valid email address.",
+    "message_missing": "Please provide a message."
+  },
+  "footer": {
+    "workhours": "Work hours",
+    "monday": "Monday",
+    "friday": "Friday",
+    "findus": "Find us"
+  },
+  "announcements": {
+    "1": {
+      "date": "Mar 16, 2020",
+      "content": "Due to Covid 19 visitors are required to wear protective masks inside our office space."
+    },
+    "2": {
+      "date": "Feb 20, 2021",
+      "content": "We stand aside our clients and we keep on providing to your needs daily, with the use of digital technology and our associates' collaborative work. We continue to offer the same high level of service in every condition."
+    }
+  },
+  "other": {
+    "location": "Andrea Papandreou 18, Kalamaria 55132"
   }
 }

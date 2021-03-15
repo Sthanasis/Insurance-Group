@@ -13,13 +13,20 @@
     "italian": "Italian"
   },
   "motivate": {
-    "row1": "We create together.",
-    "row2": "For what you love the most."
+    "slide1": "We create together.\n\nFor what you love the most.",
+    "hospital-title": "HEALTH INSURANCE",
+    "hospital": "Health, the most valuable asset.",
+    "home-title": "HOME INSURANCE",
+    "home": "Your home, the next thing\nyou love the most, after your family",
+    "family-title": "FAMILY INSURANCE",
+    "family": "An act of love and responsibility,\nsecurity for your family",
+    "vehicle-title": "VEHICLE INSURANCE",
+    "vehicle": "Insure your vehicle with us"
   },
   "company": {
     "about": "Efthymiou Athanasios - Insurance Group was founded in 1991 with the purpose of making your life easier by providing insurance services.",
     "header": "What makes us special and what is your gain.",
-    "item1": "Safety, liability and trust since 1991.",
+    "item1": "Security, liability and trust since 1991.",
     "item2": {
       "row1": "We are collaborating with companies that provide insurance services ",
       "row2": "with the majority of them enlistig on the 'Fortune 500' and they address to ",

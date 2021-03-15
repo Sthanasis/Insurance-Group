@@ -1,23 +1,26 @@
 <template>
   <div class="background">
-    <img src="../../assets/HOME.svg" alt="" />
+    <!-- <img src="../../assets/HOME.svg" alt="" /> -->
+    <Carousel />
     <div class="infoIcons">
       <InfoItem v-for="i in items" :key="i.icon" :item="i" />
     </div>
-    <div class="motivate">
+    <!-- <div class="motivate">
       {{ $t('motivate.row1') }} <br />
       {{ $t('motivate.row2') }}
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import InfoItem from '../UI/Infoitem';
 import items from '../../mixins/contact';
+import Carousel from './Carousel';
 export default {
   mixins: [items],
   components: {
     InfoItem,
+    Carousel,
   },
 };
 </script>
