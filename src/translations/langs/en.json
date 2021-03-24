@@ -43,9 +43,9 @@
     "service1": {
       "description": "Health Insurance",
       "content": {
-        "dot1": "Inner hospital care in private medical clinics and public hospitals.",
-        "dot2": "Outer hospital care (examination and doctor services).",
-        "dot3": "Dental care."
+        "dot1": "Inner hospital care in private medical clinics and public hospitals insurance.",
+        "dot2": "Outer hospital care (examination and doctor services) insurance.",
+        "dot3": "Dental care insurance."
       }
     },
     "service2": {
@@ -70,41 +70,51 @@
         "dot1": "Main and exotic residence insurance.",
         "dot2": "Home loan insurance (also for bank contracts).",
         "dot3": "Coverage of family and pet liability.",
-        "dot4": "Insurance and installation of photovoltaics."
+        "dot4": "Photovoltaics insurance."
       }
     },
     "service5": {
-      "description": "Company Insurance",
+      "description": "Group Insurance",
       "content": {
-        "dot1": "Business insurance.",
-        "dot2": "Staff insurance (pension and hospital plans).",
-        "dot3": "Coverage of civil liability.",
-        "dot4": "Insurance of electronic equipment.",
-        "dot5": "Product liability coverage.",
-        "dot6": "Insurance and installation of photovoltaics.",
-        "dot7": "Credit insurance."
+        "dot1": "Inner and Outer hospital insurance",
+        "dot2": "Pention insurance"
       }
     },
     "service6": {
+      "description": "Company Insurance",
+      "content": {
+        "dot1": "Business insurance.",
+        "dot2": "Profit loss insurance.",
+        "dot3": "Coverage of civil liability.",
+        "dot4": "Insurance of electronic equipment.",
+        "dot5": "Product liability coverage.",
+        "dot6": "Photovoltaics insurance.",
+        "dot7": "Company executives insurance."
+      }
+    },
+    "service7": {
+      "description": "Credit Insurance"
+    },
+    "service8": {
       "description": "Civil Insurance",
       "content": {
         "dot1": "Professional Liability Coverage (Doctors, Lawyers, Accountants, Electricians, Engineers, etc.).",
         "dot2": "Business Liability Coverage (Cafes, Confectioneries, Hotels, Tutoring, Pharmacies, Hairdressers, construction of buildings, etc.)."
       }
     },
-    "service7": {
+    "service9": {
       "description": "Vehicle Insurance",
       "content": {
         "dot1": "Private use Vehicle Insurance, Agricultural, Tractors, Two-wheelers etc."
       }
     },
-    "service8": {
+    "service10": {
       "description": "Boat Insurance",
       "content": {
         "dot1": "Pleasure Boat, Sailing boat, Professional boat Insurance."
       }
     },
-    "service9": {
+    "service11": {
       "description": "Other Insurances",
       "content": {
         "dot1": "Transport Insurance.",
@@ -112,7 +122,7 @@
         "dot3": "Personal Data Insurance (Cyber ​​Risk)."
       }
     },
-    "service10": {
+    "service12": {
       "description": "Legal Protection ARAG Insurance",
       "content": {
         "dot1": "Legal protection of the family.",
@@ -121,10 +131,12 @@
         "dot4": "Legal protection of vehicle and driver.",
         "dot5": "Legal protection of boats.",
         "dot6": "Legal Protection of real estate leasing.",
-        "dot7": "Legal Protection of apartment building management."
+        "dot7": "Legal Protection of apartment building management.",
+        "dot8": "Legal Protection of Obligations",
+        "dot9": "Other: Legal protection of taxis, taxi drivers, military, police, firefighters, etc."
       }
     },
-    "service11": {
+    "service13": {
       "description": "Energy Insurance",
       "content": {
         "dot1": "Mediation for the installation of photovoltaics.",
@@ -141,7 +153,8 @@
     "name": "Full Name"
   },
   "button": {
-    "submit": "Send"
+    "submit": "Send",
+    "gdpr": "About your personal data."
   },
   "buttons": {
     "success": "Success",

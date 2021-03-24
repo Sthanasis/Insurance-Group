@@ -16,8 +16,8 @@
       </div>
     </div>
     <div class="copyright">
-      <span>Athanasios Efthymiou - Insurance Group</span>
-      <span>Copyright <span data-icon="copyright"></span> {{ year }}.</span>
+      <span>Athanasios Efthymiou - Insurance Group </span>
+      <span>Copyright <span data-icon="copyright"></span> {{ year }}. </span>
       <span>All rights reserved.</span>
     </div>
   </div>

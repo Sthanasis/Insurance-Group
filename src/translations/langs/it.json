@@ -1,135 +1,147 @@
 {
   "navigation": {
-    "language": "Italian",
-    "navItem1": "Our company",
-    "navItem2": "Products and Services",
-    "navItem3": "Collaborating Companies",
-    "navItem4": "Contact",
-    "navItem5": "Announcements"
+    "language": "Italiano",
+    "navItem1": "La nostra azienda",
+    "navItem2": "Prodotti e zervizi",
+    "navItem3": "Compagnie Assicurative",
+    "navItem4": "Contatti",
+    "navItem5": "Comunicazioni"
   },
   "language": {
-    "english": "English",
-    "greek": "Greek",
-    "italian": "Italian"
+    "english": "Inglese",
+    "greek": "Greco",
+    "italian": "Italiano"
   },
   "motivate": {
     "slide1": "Creiamo insieme.\n\nPer quello che amate di più ",
-    "hospital-title": "ASSICURAZIONE OSPEDALIERA",
+    "hospital-title": "Assicurazione OSPEDALIERA",
     "hospital": "La cura del bene più prezioso,\nla nostra salute",
-    "home-title": "RAMO CASA",
+    "home-title": "Ramo CASA",
     "home": "La vostra casa, ciò che amate di più\ndopo la vostra famiglia",
-    "family-title": "ASSICURAZIONE FAMIGLIARE",
+    "family-title": "Assicurazione FAMIGLIARE",
     "family": "La sicurezza è un atto di amore e responsabilità\nper la vostra famiglia",
-    "vehicle-title": "RAMO ASSICURATIVO VEICOLI",
+    "vehicle-title": "Ramo ASSICURATIVO VEICOLI",
     "vehicle": "Assicurate il vostro veicolo con noi"
   },
   "company": {
-    "about": "Efthymiou Athanasios - Insurance Group was founded in 1991 with the purpose of making your life easier by providing insurance services.",
-    "header": "What makes us special and what is your gain.",
-    "item1": "Safety, liability and trust since 1991.",
+    "about": "Efthymiou Athanasios - Insurance Group è stata fondata nel 1991 per fornire servizi assicurativi e finanziari per semplificarti la vita.",
+    "header": "In cosa ci distinguiamo e qual è il vostro vantaggio.",
+    "item1": "Sicurezza, affidabilità e fiducia dal 1991.",
     "item2": {
-      "row1": "We are collaborating with companies that provide insurance services ",
-      "row2": "with the majority of them enlistig on the 'Fortune 500' and they address to ",
-      "row3": "over 200 million clients worldwide."
+      "row1": "Collaboriamo con compagnie che forniscono servizi assicurativi le quali per la ",
+      "row2": "maggior parte si trovano nella lista 'Fortune 500' e si rivolgono ta 200 milioni di clienti ",
+      "row3": "nel mondo."
     },
     "item3": {
-      "row1": "Our clients trust us because we support them in time of need.",
-      "row2": "We attend their finnancial needs, we protect their fortune and their",
-      "row3": "company, and we help them plan for the future."
+      "row1": "I nostri clienti si fidano di noi perché li supportiamo quando ne hanno veramente bisogno.",
+      "row2": "Ci prendiamo cura dei loro bisogni finanziari, proteggiamo le loro proprietà",
+      "row3": "e la loro attività e noi li aiutiamo a pianificare il loro futuro."
     },
-    "item4": "We provide innovative and concluded services, based on your needs."
+    "item4": "Offriamo prodotti innovativi, completi, sempre guidati dalle vostre esigenze."
   },
   "services": {
     "service1": {
-      "description": "Health Insurance",
+      "description": "Ramo Salute",
       "content": {
-        "dot1": "Inner hospital care in private medical clinics and public hospitals.",
-        "dot2": "Outer hospital care (examination and doctor services).",
-        "dot3": "Dental care."
+        "dot1": "Assistenza sanitaria in cliniche private e ospedali pubblici.",
+        "dot2": "Assistenza ambulatoriale (esami diagnostici e servizi medici).",
+        "dot3": "Assistenza dentistica."
       }
     },
     "service2": {
-      "description": "Financial Insurance",
+      "description": "Ramo Finanziario",
       "content": {
-        "dot1": "Private pension.",
-        "dot2": "Saving for your children's education.",
-        "dot3": "Investments in Mutual Funds (low, medium and high risk)."
+        "dot1": "Creazione di una pensione privata (pagamenti periodici e pagamento in un'unica soluzione).",
+        "dot2": "Risparmio ai fini dell' istruzione dei figli.",
+        "dot3": "Investimenti in Fondi Comuni di Ιnvestimento (rischio basso, medio e alto)."
       }
     },
     "service3": {
-      "description": "Income Insurance",
+      "description": "Assicurazione Del Reddito",
       "content": {
-        "dot1": "Disability pension (caused by sickness or accident).",
-        "dot2": "Income security.",
-        "dot3": "Life insurance."
+        "dot1": "Pensione di invalidità (da malattia o incidente).",
+        "dot2": "Assicurazione del reddito (da malattia o incidente).",
+        "dot3": "Assicurazione Vita (da malattia o incidente)."
       }
     },
     "service4": {
-      "description": "Residence Insurance",
+      "description": "Ramo Casa",
       "content": {
-        "dot1": "Main and exotic residence insurance.",
-        "dot2": "Home loan insurance (also for bank contracts).",
-        "dot3": "Coverage of family and pet liability.",
-        "dot4": "Insurance and installation of photovoltaics."
+        "dot1": "Assicurazione della residenza principale e della casa vacanze.",
+        "dot2": "Assicurazione mutuo casa (anche per contratti stipulati con una banca).",
+        "dot3": "Copertura della responsabilità familiare e dell'animale domestico.",
+        "dot4": "Assicurazione di impianti fotovoltaici."
       }
     },
     "service5": {
-      "description": "Company Insurance",
+      "description": "Assicurazione Di Gruppo",
       "content": {
-        "dot1": "Business insurance.",
-        "dot2": "Staff insurance (pension and hospital plans).",
-        "dot3": "Coverage of civil liability.",
-        "dot4": "Insurance of electronic equipment.",
-        "dot5": "Product liability coverage.",
-        "dot6": "Insurance and installation of photovoltaics.",
-        "dot7": "Credit insurance."
+        "dot1": "Assistenza sanitaria ospedaliera e ambulatoriale.",
+        "dot2": "Assicurazione della pensione."
       }
     },
     "service6": {
-      "description": "Civil Insurance",
+      "description": "Assicurazione Delle Imprese",
       "content": {
-        "dot1": "Professional Liability Coverage (Doctors, Lawyers, Accountants, Electricians, Engineers, etc.).",
-        "dot2": "Business Liability Coverage (Cafes, Confectioneries, Hotels, Tutoring, Pharmacies, Hairdressers, construction of buildings, etc.)."
+        "dot1": "Assicurazione aziendale.",
+        "dot2": "Asscurazione perdita dei profitti.",
+        "dot3": "Assicurazione dirigenti aziendali.",
+        "dot4": "Copertura della responsabilità civile.",
+        "dot5": "Assicurazione delle apparecchiature elettroniche.",
+        "dot6": "Copertura della responsabilità del prodotto.",
+        "dot7": "Assicurazione di impianti fotovoltaici."
       }
     },
     "service7": {
-      "description": "Vehicle Insurance",
-      "content": {
-        "dot1": "Private use Vehicle Insurance, Agricultural, Tractors, Two-wheelers etc."
-      }
+      "description": "Ramo  Assicurazione Del Credito"
     },
     "service8": {
-      "description": "Boat Insurance",
+      "description": "Ramo Responsabilità Civile",
       "content": {
-        "dot1": "Pleasure Boat, Sailing boat, Professional boat Insurance."
+        "dot1": "Copertura della responsabilità professionale (medici, avvocati, commercialisti, elettricisti, ingegneri, ecc.).",
+        "dot2": "Copertura della responsabilità aziendale (bar, pasticcerie, hotel, scuole private, farmacie, parrucchieri, costruzioni edili, ecc.)."
       }
     },
     "service9": {
-      "description": "Other Insurances",
+      "description": "Ramo Assicurativo Veicoli",
       "content": {
-        "dot1": "Transport Insurance.",
-        "dot2": "Travel Insurance.",
-        "dot3": "Personal Data Insurance (Cyber ​​Risk)."
+        "dot1": "Assicurazione Auto, Camion, veicoli Agricoli, Trattori, Moto, Motocicli ecc."
       }
     },
     "service10": {
-      "description": "Legal Protection ARAG Insurance",
+      "description": "Ramo Assicurativo Scafi",
       "content": {
-        "dot1": "Legal protection of the family.",
-        "dot2": "Legal protection of the company and the entrepreneur.",
-        "dot3": "Legal Protection of professionals (Doctors, Accountants, etc.).",
-        "dot4": "Legal protection of vehicle and driver.",
-        "dot5": "Legal protection of boats.",
-        "dot6": "Legal Protection of real estate leasing.",
-        "dot7": "Legal Protection of apartment building management."
+        "dot1": "Assicurazione di imbarcazioni da diporto, a vela e professionali."
       }
     },
     "service11": {
-      "description": "Energy Insurance",
+      "description": "Altre Assicurazion",
       "content": {
-        "dot1": "Mediation for the installation of photovoltaics.",
-        "dot2": "Mediation for recidence or buisness electricity supply.",
-        "dot3": "Mediation for residence or buisness gas supply."
+        "dot1": "Assicurazione dei trasporti.",
+        "dot2": "Assicurazione di viaggio.",
+        "dot3": "Assicurazione dei dati personali (Cyber Risk)."
+      }
+    },
+    "service12": {
+      "description": "Protezione Legale ARAG",
+      "content": {
+        "dot1": "Protezione legale della famiglia.",
+        "dot2": "Tutela legale dell' impresa e dell' imprenditore.",
+        "dot3": "Protezione giuridica di contratti di debito.",
+        "dot4": "Tutela legale dei professionisti (Medici, Commercialisti, ecc.).",
+        "dot5": "Protezione legale del veicolo e del conducente (Auto, Camion, ecc.).",
+        "dot6": "Protezione legale delle imbarcazioni.",
+        "dot7": "Tutela legale dei contratti di locazione.",
+        "dot8": "Tutela legale della gestione condominiale.",
+        "dot9": "Altri: Tutela legale taxi, guidatori taxi, militari, poliziotti, vigili del fuoco, ecc."
+      }
+    },
+    "service13": {
+      "description": "Energia",
+      "content": {
+        "dot1": "Mediazione per l'installazione di impianti fotovoltaici.",
+        "dot2": "Mediazione per la fornitura di energia elettrica per la prima e seconda casa e per l'azienda.",
+        "dot3": "Mediazione per la fornitura di gas per la prima e seconda casa e per l'azienda."
       }
     }
   },
@@ -141,7 +153,8 @@
     "name": "Full Name"
   },
   "button": {
-    "submit": "Send"
+    "submit": "Send",
+    "gdpr": "About your personal data."
   },
   "buttons": {
     "success": "Success",
@@ -158,10 +171,10 @@
     "message_missing": "Please provide a message."
   },
   "footer": {
-    "workhours": "Work hours",
-    "monday": "Monday",
-    "friday": "Friday",
-    "findus": "Find us"
+    "workhours": "Orari di apertura",
+    "monday": "Lunedi",
+    "friday": "Venerdi",
+    "findus": "Trovateci su"
   },
   "announcements": {
     "1": {

@@ -41,6 +41,10 @@
         />
       </div>
     </div>
+    <div class="gdpr-button">
+      <Button :caption="$t('button.gdpr')" @clickevent="showGdpr" type="icon" />
+    </div>
+    <Gdpr v-if="gdpr" @hide="hideGdpr" />
     <Map />
   </div>
 </template>
@@ -52,6 +56,8 @@ import InfoItem from '../UI/Infoitem';
 import items from '@/mixins/contact';
 import toasts from '@/mixins/toasts';
 import Map from '../Utilities/Map';
+import Gdpr from '../Utilities/Gdpr';
+
 import { sendEmail } from '@/common-js/common';
 
 export default {
@@ -59,6 +65,7 @@ export default {
   data() {
     return {
       emailSent: false,
+      gdpr: false,
     };
   },
   computed: {
@@ -75,6 +82,7 @@ export default {
     InfoItem,
     Button,
     Map,
+    Gdpr,
   },
   methods: {
     sendEmail() {
@@ -139,6 +147,14 @@ export default {
         return isValid;
       }
       return isValid;
+    },
+    showGdpr() {
+      this.gdpr = true;
+      document.querySelector('body').style.overflow = 'hidden';
+    },
+    hideGdpr() {
+      this.gdpr = false;
+      document.querySelector('body').style.overflow = 'auto';
     },
   },
 };
@@ -209,6 +225,11 @@ export default {
 .grid-container .infoItem span:first-of-type::before {
   color: var(--lblue);
   font-size: 30px;
+}
+
+.gdpr-button button {
+  color: var(--mblue);
+  font-weight: bold !important;
 }
 
 @media (max-width: 992px) {
