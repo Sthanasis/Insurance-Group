@@ -157,18 +157,18 @@
     "gdpr": "Legi l’ informativa su i dati personali."
   },
   "buttons": {
-    "success": "Success",
-    "error": "Error"
+    "success": "Successo",
+    "error": "Errore"
   },
   "utils": {
-    "email_sent": "Message sent successfully.",
-    "error": "Something went wrong. Try again tomorrow."
+    "email_sent": "Messaggio inviato con successo..",
+    "error": "Qualcosa è andato storto. Riprova domani."
   },
   "emailform": {
-    "name_missing": "Please provide a name.",
-    "email_missing": "Please provide an email.",
-    "email_invalid": "Please provide a valid email address.",
-    "message_missing": "Please provide a message."
+    "name_missing": "Si prega di fornire un nome.",
+    "email_missing": "Si prega di fornire un'e-mail.",
+    "email_invalid": "Per favore fornisci un indirizzo email valido.",
+    "message_missing": "Si prega di fornire un messaggio."
   },
   "footer": {
     "workhours": "Orari di apertura",
