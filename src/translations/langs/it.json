@@ -5,7 +5,7 @@
     "navItem2": "Prodotti e zervizi",
     "navItem3": "Compagnie Assicurative",
     "navItem4": "Contatti",
-    "navItem5": "Comunicazioni"
+    "navItem5": "Αnnunci"
   },
   "language": {
     "english": "Inglese",
@@ -14,13 +14,13 @@
   },
   "motivate": {
     "slide1": "Creiamo insieme.\n\nPer quello che amate di più ",
-    "hospital-title": "Assicurazione OSPEDALIERA",
+    "hospital-title": "ASSICURAZIONE OSPEDALIERA",
     "hospital": "La cura del bene più prezioso,\nla nostra salute",
-    "home-title": "Ramo CASA",
+    "home-title": "RAMO CASA",
     "home": "La vostra casa, ciò che amate di più\ndopo la vostra famiglia",
-    "family-title": "Assicurazione FAMIGLIARE",
+    "family-title": "ASSICURAZIONE FAMIGLIARE",
     "family": "La sicurezza è un atto di amore e responsabilità\nper la vostra famiglia",
-    "vehicle-title": "Ramo ASSICURATIVO VEICOLI",
+    "vehicle-title": "RAMO ASSICURATIVO VEICOLI",
     "vehicle": "Assicurate il vostro veicolo con noi"
   },
   "company": {
@@ -146,15 +146,15 @@
     }
   },
   "contact": {
-    "contactUs": "Do not hesitate to contact us with any question you may have.",
-    "sendMessage": "Send us a message."
+    "contactUs": "Contattaci per qualsiasi domanda tu possa avere in merito alle nostre coperture assicurative.",
+    "sendMessage": "Lasciaci il tuo messaggio."
   },
   "input": {
-    "name": "Full Name"
+    "name": "Nome e Cognome"
   },
   "button": {
-    "submit": "Send",
-    "gdpr": "About your personal data."
+    "submit": "Invia",
+    "gdpr": "Legi l’ informativa su i dati personali."
   },
   "buttons": {
     "success": "Success",
@@ -179,14 +179,15 @@
   "announcements": {
     "1": {
       "date": "Mar 16, 2020",
-      "content": "Due to Covid 19 visitors are required to wear protective masks inside our office space."
+      "content": "A causa del coronavirus, è necessario utilizzare la mascherina durante la visita presso il nostro uffico."
     },
     "2": {
       "date": "Feb 20, 2021",
-      "content": "We stand aside our clients and we keep on providing to your needs daily, with the use of digital technology and our associates' collaborative work. We continue to offer the same high level of service in every condition."
+      "content": "Restiamo accanto ai nostri assicurati e continuiamo a servire le vostre richieste quotidianamente, senza ostacoli, utilizzando la tecnologia digitale e il lavoro collettivo dei nostri collaboratori. Continuiamo a offrire lo stesso alto livello di servizi a qualunque condizione.."
     }
   },
   "other": {
-    "location": "Andrea Papandreou 18, Kalamaria 55132"
+    "location": "Andrea Papandreou 18, Kalamaria 55132",
+    "cellphone": "+30 6945 627619"
   }
 }

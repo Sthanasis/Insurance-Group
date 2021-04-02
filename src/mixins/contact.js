@@ -8,7 +8,7 @@ export default {
         },
         {
           icon: 'mobile',
-          info: '6945 627619',
+          info: this.$t('other.cellphone'),
         },
         {
           icon: 'location',

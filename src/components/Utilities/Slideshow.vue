@@ -63,6 +63,10 @@ export default {
   padding: 5px 5%;
 }
 
+.infoIcons .infoItem span:last-child {
+  font-size: 0.9rem;
+}
+
 @media (max-width: 992px) {
   .infoIcons {
     display: none;
