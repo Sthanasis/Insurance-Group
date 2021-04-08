@@ -189,5 +189,34 @@
   "other": {
     "location": "Andrea Papandreou 18, Kalamaria 55132",
     "cellphone": "+30 6945 627619"
+  },
+  "gdpr": {
+    "header": "The Company with the name Athanasios Efthimiou, Tax Identification Number 044254624 and registered office at Andrea Papandreou Street, no. 18, T.K. 55132, Kalamaria, informs you hereby, for the legal collection, processing and storage of data in accordance with the provisions of Articles 7 and 9 of the General Regulation on Personal Data (Γ.Κ.Π.Δ. /Ε.Ε. 679/2016).",
+    "subheader": "The Company complies with the Code of Ethics of the Association of Insurance Companies of Greece for the processing personal data.",
+    "first": {
+      "header": "1. Purposes",
+      "body": "The main purpose of the processing is the conclusion and maintenance of the insurance contract and the management of the insurance cases undertaken by the Company under it."
+    },
+    "second": {
+      "header": "2. Source of information",
+      "body": "The Company collects personal data included in the insurance application, in the accompanying its documents and supporting documents and any other data which the customer has disclosed or will notify the Company in the future, either orally or by any other means, document or electronic."
+    },
+    "third": {
+      "header": "3. Types of data to be processed",
+      "body": "The processing of data by the Company includes the following categories:\na. Identification data: first name, last name, date of birth, police ID / passport number,ΑΜΚΑ, ΑΦΜ\nb. Contact Data: email / mail address, phone / fax numbers\nc. Payment Data: bank accounts, debit / credit and other bank cards\nd. Insurance Data: Data necessary for the conclusion and management of the insurance contract, (eg in relation to financial / property situation, health data, data on driving behavior (driving history), car accident incidents, work / professional activity data)\ne. Settlement Data: Data necessary for the management of declared insurance cases, which may be included in the insurance claim, claim statement, compensation claim and accompanying their documents / supporting documents."
+    },
+    "fourth": {
+      "header": "4. Recipients",
+      "body": "My data can be transmitted: a. To other insurance companies after submitting a legal request, b. At the company's headquarters or at another company within the EU. belonging to the same group to which Company for statistical reasons, without referring to data of special categories, c. to public / judicial authorities, inside or outside the EU, d. to the Association of Insurance Companies of Greece, e. to service providers cooperating with the company, inside and outside the EU, within the framework of the legal operation of the insurance contract, such as insurance intermediaries, lawyers, researchers or experts, etc."
+    },
+    "fifth": {
+      "header": "5. Processing time",
+      "body": "The Company will collect, store and generally process data for a period of up to twenty (20) years from the expiration of the insurance contract in any way and up to five (5) years in case of non-conclusion of the insurance contract, unless a legal dispute is pending beyond the above processing times and up to its conclusion by an irrevocable court decision."
+    },
+    "sixth": {
+      "header": "6. Data subject rights",
+      "body": "The customer is informed that he has the right to withdraw his consent at any time, as well as for the consequences of any revocation. In particular, it is informed that in case the consent is revoked as to data, the processing of which is absolutely necessary for the performance of the insurance contract, the Company has the right to terminate the contract. The same may happen in case of disagreement with existing insurance policies. If the withdrawal of consent is made during the pre-contractual stage, then the Company has the right to refuse the conclusion of the contract. In addition, it is informed of the following rights, as they apply under the conditions set in the General Regulation of Personal Data (G.K.P.D./Ε.Ε. 679/2016) as well as in the respective applicable provisions relating to it, following its transposition into national law. Specifically:\n- Has the right to have access to his personal data held, owned and processed by the Company.\n- Has the right to request the correction of inaccurate or out-of-date data concerning him or the completion incomplete data.\n- It has the right to request the deletion of its data from the Company's files if their processing does not is necessary to pursue the purposes for which they have been collected.\n- It has the right to request the restriction of the use of its data in case it disputes their accuracy.\n- Has the right to receive the data he has provided in a structured, commonly used format."
+    },
+    "footer": "The exercise of the above-mentioned rights presupposes the submission of a written application to the Company, at the email address a.efthimiou60@gmail.com"
   }
 }
