@@ -3,7 +3,12 @@
     <div class="serviceHeader">
       <img :src="require(`@/assets/services/${service.icon}.svg`)" />
       <span>{{ service.description }}</span>
-      <span data-icon="down" @click="toggleContent"></span>
+      <span
+        data-icon="down"
+        @click="toggleContent"
+        v-if="service.content.length > 0"
+      ></span>
+      <span v-else></span>
     </div>
     <div v-if="show" class="serviceContent">
       <ul>
