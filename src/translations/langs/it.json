@@ -18,7 +18,7 @@
     "hospital": "La cura del bene più prezioso,\nla nostra salute",
     "home-title": "RAMO CASA",
     "home": "La vostra casa, ciò che amate di più\ndopo la vostra famiglia",
-    "family-title": "ASSICURAZIONE FAMIGLIARE",
+    "family-title": "ASSICURAZIONE FAMILIARE",
     "family": "La sicurezza è un atto di amore e responsabilità\nper la vostra famiglia",
     "vehicle-title": "RAMO ASSICURATIVO VEICOLI",
     "vehicle": "Assicurate il vostro veicolo con noi"
@@ -57,7 +57,7 @@
       }
     },
     "service3": {
-      "description": "Assicurazione Del Reddito",
+      "description": "Assicurazione del Reddito",
       "content": {
         "dot1": "Pensione di invalidità (da malattia o incidente).",
         "dot2": "Assicurazione del reddito (da malattia o incidente).",
@@ -74,14 +74,14 @@
       }
     },
     "service5": {
-      "description": "Assicurazione Di Gruppo",
+      "description": "Assicurazione di Gruppo",
       "content": {
         "dot1": "Assistenza sanitaria ospedaliera e ambulatoriale.",
         "dot2": "Assicurazione della pensione."
       }
     },
     "service6": {
-      "description": "Assicurazione Delle Imprese",
+      "description": "Assicurazione delle Imprese",
       "content": {
         "dot1": "Assicurazione aziendale.",
         "dot2": "Asscurazione perdita dei profitti.",
@@ -93,7 +93,7 @@
       }
     },
     "service7": {
-      "description": "Ramo  Assicurazione Del Credito"
+      "description": "Assicurazione del Credito"
     },
     "service8": {
       "description": "Ramo Responsabilità Civile",
@@ -115,7 +115,7 @@
       }
     },
     "service11": {
-      "description": "Altre Assicurazion",
+      "description": "Altre Assicurazioni",
       "content": {
         "dot1": "Assicurazione dei trasporti.",
         "dot2": "Assicurazione di viaggio.",
@@ -188,6 +188,36 @@
   },
   "other": {
     "location": "Andrea Papandreou 18, Kalamaria 55132",
-    "cellphone": "+30 6945 627619"
+    "cellphone": "+30 6945 627619",
+    "phone": "+30 2310 029126"
+  },
+  "gdpr": {
+    "header": "La società Athanasios Efthimiou, numero di identificazione fiscale 044254624 e sede legale in Via Andrea Papandreou, n. 18, C.A.P. 55132, Kalamaria, con la presente vi informa sulla raccolta, l'elaborazione e l'archiviazione legale dei dati in conformità con le disposizioni degli articoli 7 e 9 del Regolamento generale sui dati personali (Ε.Ε. 679/2016).",
+    "subheader": "La Società osserva il Codice Etico dell'Associazione degli Intermediari Assicurativi della Grecia per il trattamento dati personali.",
+    "first": {
+      "header": "1. Finalità",
+      "body": "Lo scopo principale del trattamento è la contrazione e il mantenimento del contratto di assicurazione e la gestione dei casi assicurativi assunti."
+    },
+    "second": {
+      "header": "2. Fonte delle informazioni",
+      "body": "La Società raccoglie i dati personali inseriti nella domanda di assicurazione, nei documenti allegati e qualsiasi altro dato che il cliente ha dichiarato o che vorrà dichiarare alla Società in futuro, oralmente o con qualsiasi altro mezzo, cartaceo o elettronico.."
+    },
+    "third": {
+      "header": "3. Tipi di dati da trattare",
+      "body": "Il trattamento dei dati da parte della Società comprende le seguenti categorie:\na. dati di identificazione: ad es. Nome, Cognome, data di nascita, Carta d'Identità / Passaporto, Codice Fiscale \nb. dati di contatto: ad es. indirizzo e-mail / postale, numeri di telefono / fax \nc. dati di pagamento: ad es. conti bancari, carte di debito / credito e altre carte bancarie \nd. dati assicurativi: dati necessari per la contrazione e la gestione del contratto di assicurazione, (ad es. in relazione alla situazione finanziaria / patrimoniale, dati sanitari, dati sul comportamento di guida, incidenti stradali, dati sull'attività lavorativa / professionale) \ne. dati di liquidazione: dati necessari per la gestione dei casi assicurativi dichiarati, che possono essere inclusi nella dichiarazione di sinistro, nella richiesta di risarcimento e nei relativi documenti."
+    },
+    "fourth": {
+      "header": "4. Destinatari",
+      "body": "I dati possono essere trasmessi:\na. ad altre compagnie di assicurazione dopo aver presentato una richiesta legale\nb. presso la sede della società o presso un'altra società, appartenente allo stesso gruppo, all'interno dell'UE.  per motivi statistici, senza fare riferimento a dati di categorie particolari\nc. ad autorità pubbliche / giudiziarie, all'interno o all'esterno dell'UE\nd. all'Associazione delle compagnie di assicurazione della Grecia\ne. a fornitori di servizi che collaborano con la società, all'interno e all'esterno dell'UE, nell'ambito dell'operazione legale del contratto di assicurazione, quali intermediari assicurativi, avvocati, ricercatori o esperti, ecc."
+    },
+    "fifth": {
+      "header": "5. Tempo di elaborazione",
+      "body": "La Società raccoglierà, archivierà ed elaborerà generalmente i dati per un periodo fino a venti (20) anni dalla scadenza del contratto di assicurazione e fino a cinque (5) anni in caso di mancata stipulazione del contratto di assicurazione, a meno che non sia pendente una controversia legale oltre i tempi di elaborazione di cui sopra e fino a la sua conclusione con decisione irrevocabile del tribunale."
+    },
+    "sixth": {
+      "header": "6. Diritti dell'interessato",
+      "body": "Il cliente è informato che ha il diritto di revocare il proprio consenso in qualsiasi momento. In particolare si informa che in caso di revoca del consenso a dati il cui trattamento è assolutamente necessario per l'esecuzione del contratto di assicurazione, la Società ha il diritto di risolvere il contratto. Lo stesso può accadere in caso di non consenso con polizze assicurative esistenti. Se la revoca del consenso viene effettuata durante la fase precontrattuale, la Società ha il diritto di rifiutare la stipula del contratto. Inoltre, viene informato dei seguenti diritti, in quanto si applicano le condizioni stabilite nel Regolamento Generale dei Dati Personali (Ε.Ε. 679/2016).\nNello specifico:\n- Ha il diritto di avere accesso ai suoi dati personali posseduti e trattati dalla Società.\n- Ha il diritto di chiedere la rettifica dei dati inesatti o non aggiornati che lo riguardano o il completamento dei dati incompleti.\n- Ha il diritto di richiedere la cancellazione dei propri dati dagli archivi della Società se il loro trattamento non è necessario per il perseguimento delle finalità per le quali sono stati raccolti.\n- Ha il diritto di richiedere la limitazione dell'uso dei suoi dati nel caso in cui ne contesti l'esattezza.\n- Ha diritto di ricevere i dati da lui forniti."
+    },
+    "footer": "L'esercizio dei suddetti diritti presuppone la presentazione di istanza scritta alla società, all'indirizzo di posta elettronica a.efthimiou60@gmail.com."
   }
 }

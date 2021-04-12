@@ -4,7 +4,7 @@ export default {
       return [
         {
           icon: 'phone',
-          info: '2310 029126',
+          info: this.$t('other.phone'),
         },
         {
           icon: 'mobile',
