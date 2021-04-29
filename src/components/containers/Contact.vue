@@ -102,7 +102,7 @@ export default {
           .catch(err => {
             this.errorToast(this.$t('utils.error'));
             this.emailSent = false;
-            console.log(err);
+            console.error(err);
           });
       } else {
         this.emailSent = false;
