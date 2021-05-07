@@ -20,7 +20,7 @@ export default {
         },
         {
           icon: 'email',
-          info: 'a.efthymiou60@gmail.com',
+          info: 'a.efthimiou60@gmail.com',
         },
         {
           icon: 'facebook',

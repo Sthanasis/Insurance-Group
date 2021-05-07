@@ -2,7 +2,7 @@
   "navigation": {
     "language": "Italiano",
     "navItem1": "La nostra azienda",
-    "navItem2": "Prodotti e zervizi",
+    "navItem2": "Prodotti e servizi",
     "navItem3": "Compagnie Assicurative",
     "navItem4": "Contatti",
     "navItem5": "Αnnunci"
@@ -29,7 +29,7 @@
     "item1": "Sicurezza, affidabilità e fiducia dal 1991.",
     "item2": {
       "row1": "Collaboriamo con compagnie che forniscono servizi assicurativi le quali per la ",
-      "row2": "maggior parte si trovano nella lista 'Fortune 500' e si rivolgono ta 200 milioni di clienti ",
+      "row2": "maggior parte si trovano nella lista 'Fortune 500' e si rivolgono a 200 milioni di clienti ",
       "row3": "nel mondo."
     },
     "item3": {
@@ -154,7 +154,7 @@
   },
   "button": {
     "submit": "Invia",
-    "gdpr": "Legi l’ informativa su i dati personali."
+    "gdpr": "Leggi l’ informativa su i dati personali."
   },
   "buttons": {
     "success": "Successo",

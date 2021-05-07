@@ -64,7 +64,7 @@ export default {
 }
 
 .infoIcons .infoItem span:last-child {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 992px) {
